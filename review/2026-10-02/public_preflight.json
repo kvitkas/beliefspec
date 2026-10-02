@@ -1,6 +1,6 @@
 {
   "scope": "current Git index; heuristic credential/path scan, provenance, and raw-CSV checks",
-  "tracked_files": 167,
+  "tracked_files": 168,
   "frozen_files": 50,
   "publication_provenance": {
     "root": ".",

@@ -1,0 +1,289 @@
+{
+  "checked_commit": "92c717f3c808850ca156699ecfbc2b14390c18d7",
+  "clone_method": "git clone --no-hardlinks from the local committed repository, with full history",
+  "environment": {
+    "new_virtual_environment": true,
+    "setup": [
+      "uv venv --python 3.12 .venv",
+      "uv pip sync --python .venv/bin/python requirements.lock.txt",
+      "uv pip install --python .venv/bin/python --no-deps -e ."
+    ],
+    "python": "3.12.13",
+    "platform": "macOS-15.7.7-arm64-arm-64bit",
+    "packages": {
+      "torch": "2.14.1",
+      "numpy": "2.5.3",
+      "minigrid": "3.1.0",
+      "gymnasium": "1.3.0",
+      "matplotlib": "3.11.2",
+      "pytest": "9.1.1",
+      "ruff": "0.16.10"
+    }
+  },
+  "tests_stdout": "..............................                                           [100%]\n30 passed in 22.04s",
+  "lint_stdout": "All checks passed!",
+  "raw_record_audit": {
+    "passed": true,
+    "failures": [],
+    "episode_rows": 7680,
+    "split_overlap": {
+      "train:validation": 0,
+      "train:test": 0,
+      "validation:test": 0
+    },
+    "provenance": {
+      "root": ".",
+      "source": "worktree",
+      "file_count": 50,
+      "mismatch_count": 0,
+      "mismatches": [],
+      "live_frozen_verified_count": 49,
+      "historical_frozen_verified_count": 1,
+      "publication_copy_verified_count": 1,
+      "passed": true,
+      "failures": [],
+      "model_outcomes_on_test_inspected": false,
+      "primary": "paired seed difference on observed clues, equal delay weight",
+      "episodes": 768,
+      "mode": "publication_copy"
+    },
+    "run_configurations_and_selection": {
+      "runs": [
+        {
+          "variant": "control",
+          "seed": 11,
+          "config_matches_frozen_plus_run_fields": true,
+          "selected_epoch": 30,
+          "validation_min_epoch": 30,
+          "selected_epoch_matches_validation_min": true,
+          "checkpoint_epoch": 30,
+          "checkpoint_epoch_matches_result": true,
+          "parameter_counts": {
+            "allocated": 56171,
+            "shared": 34611,
+            "prediction_head": 21560
+          }
+        },
+        {
+          "variant": "predictive",
+          "seed": 11,
+          "config_matches_frozen_plus_run_fields": true,
+          "selected_epoch": 10,
+          "validation_min_epoch": 10,
+          "selected_epoch_matches_validation_min": true,
+          "checkpoint_epoch": 10,
+          "checkpoint_epoch_matches_result": true,
+          "parameter_counts": {
+            "allocated": 56171,
+            "shared": 34611,
+            "prediction_head": 21560
+          }
+        },
+        {
+          "variant": "control",
+          "seed": 22,
+          "config_matches_frozen_plus_run_fields": true,
+          "selected_epoch": 30,
+          "validation_min_epoch": 30,
+          "selected_epoch_matches_validation_min": true,
+          "checkpoint_epoch": 30,
+          "checkpoint_epoch_matches_result": true,
+          "parameter_counts": {
+            "allocated": 56171,
+            "shared": 34611,
+            "prediction_head": 21560
+          }
+        },
+        {
+          "variant": "predictive",
+          "seed": 22,
+          "config_matches_frozen_plus_run_fields": true,
+          "selected_epoch": 30,
+          "validation_min_epoch": 30,
+          "selected_epoch_matches_validation_min": true,
+          "checkpoint_epoch": 30,
+          "checkpoint_epoch_matches_result": true,
+          "parameter_counts": {
+            "allocated": 56171,
+            "shared": 34611,
+            "prediction_head": 21560
+          }
+        },
+        {
+          "variant": "control",
+          "seed": 33,
+          "config_matches_frozen_plus_run_fields": true,
+          "selected_epoch": 30,
+          "validation_min_epoch": 30,
+          "selected_epoch_matches_validation_min": true,
+          "checkpoint_epoch": 30,
+          "checkpoint_epoch_matches_result": true,
+          "parameter_counts": {
+            "allocated": 56171,
+            "shared": 34611,
+            "prediction_head": 21560
+          }
+        },
+        {
+          "variant": "predictive",
+          "seed": 33,
+          "config_matches_frozen_plus_run_fields": true,
+          "selected_epoch": 30,
+          "validation_min_epoch": 30,
+          "selected_epoch_matches_validation_min": true,
+          "checkpoint_epoch": 30,
+          "checkpoint_epoch_matches_result": true,
+          "parameter_counts": {
+            "allocated": 56171,
+            "shared": 34611,
+            "prediction_head": 21560
+          }
+        }
+      ],
+      "all_configs_match": true,
+      "all_selected_epochs_match_validation_min": true,
+      "all_checkpoint_epochs_match_results": true,
+      "state_shape_mismatches": [],
+      "reference_parameter_counts": {
+        "allocated": 56171,
+        "shared": 34611,
+        "prediction_head": 21560
+      }
+    },
+    "re_inference": {
+      "seconds": 1.113651708001271,
+      "runs": [
+        {
+          "variant": "control",
+          "seed": 11,
+          "episodes": 768,
+          "max_probability_difference": 0.0,
+          "max_prediction_metric_difference": 0.0,
+          "readout_mismatches": 0,
+          "success_mismatches": 0
+        },
+        {
+          "variant": "predictive",
+          "seed": 11,
+          "episodes": 768,
+          "max_probability_difference": 0.0,
+          "max_prediction_metric_difference": 0.0,
+          "readout_mismatches": 0,
+          "success_mismatches": 0
+        },
+        {
+          "variant": "control",
+          "seed": 22,
+          "episodes": 768,
+          "max_probability_difference": 0.0,
+          "max_prediction_metric_difference": 0.0,
+          "readout_mismatches": 0,
+          "success_mismatches": 0
+        },
+        {
+          "variant": "predictive",
+          "seed": 22,
+          "episodes": 768,
+          "max_probability_difference": 0.0,
+          "max_prediction_metric_difference": 0.0,
+          "readout_mismatches": 0,
+          "success_mismatches": 0
+        },
+        {
+          "variant": "control",
+          "seed": 33,
+          "episodes": 768,
+          "max_probability_difference": 0.0,
+          "max_prediction_metric_difference": 0.0,
+          "readout_mismatches": 0,
+          "success_mismatches": 0
+        },
+        {
+          "variant": "predictive",
+          "seed": 33,
+          "episodes": 768,
+          "max_probability_difference": 0.0,
+          "max_prediction_metric_difference": 0.0,
+          "readout_mismatches": 0,
+          "success_mismatches": 0
+        }
+      ],
+      "mismatch_examples": []
+    },
+    "target_dependence": {
+      "observed_episode_pairs": 192,
+      "bad_pairs": [],
+      "differing_observation_step_sets": [
+        [
+          0,
+          1
+        ]
+      ],
+      "prediction_input_times_with_clue_dependent_targets": [
+        0
+      ],
+      "post_clue_target_comparisons": 6336,
+      "post_clue_target_differences": 0
+    }
+  },
+  "reproduction": {
+    "data_regeneration": {
+      "train": {
+        "episodes": 1536,
+        "ordered_visible_hashes_match": true
+      },
+      "validation": {
+        "episodes": 384,
+        "ordered_visible_hashes_match": true
+      },
+      "test": {
+        "episodes": 768,
+        "ordered_visible_hashes_match": true
+      }
+    },
+    "runs": [
+      {
+        "seed": 11,
+        "variant": "control",
+        "exact_checkpoint_tensors": true,
+        "max_probability_or_prediction_ce_difference": 0.0,
+        "all_episode_successes_identical": true,
+        "observed_success": 1.0,
+        "never_success": 0.5
+      }
+    ]
+  },
+  "reproduction_seconds": {
+    "real": 39.44,
+    "user": 37.32,
+    "sys": 5.93
+  },
+  "regenerated_figure_bytes_match": {
+    "decision_success.png": true,
+    "prediction_and_memory.png": true,
+    "learning_curves.png": true,
+    "task_illustration.png": true,
+    "figure_inputs.json": true
+  },
+  "paper_rebuild": {
+    "compiler": "Tectonic 0.17.0, pre-existing local executable, cached TeX resources",
+    "log": "note: Running TeX ...\nnote: Running BibTeX on main.aux ...\nnote: Rerunning TeX because bibtex was run ...\nnote: Rerunning TeX because \"main.aux\" changed ...\nnote: Rerunning TeX because \"main.aux\" changed ...\nnote: Running xdvipdfmx ...\nnote: Writing `main.log` (10.3984375 KiB)\nnote: Writing `main.blg` (194 B)\nnote: Writing `main.pdf` (130.6201171875 KiB)\nnote: Skipped writing 3 intermediate files (use --keep-intermediates to keep them)",
+    "pages": 7,
+    "rendered_page_bytes_match_reviewed_pdf": {
+      "page-1.png": true,
+      "page-2.png": true,
+      "page-3.png": true,
+      "page-4.png": true,
+      "page-5.png": true,
+      "page-6.png": true,
+      "page-7.png": true
+    },
+    "extracted_text_matches_reviewed_pdf": true,
+    "committed_pdf_sha256": "c5ce17d2bef6bb54b9836d477381580b244ba0e53cfdac01eab0ef75c24b1a14",
+    "rebuilt_pdf_sha256": "00252ef4d7c93e34637140548ea37bc80c03a39b8dc23c65d6cf6f01d6d4eac3",
+    "note": "PDF bytes differ on rebuild; rendered pages and extracted text are compared separately."
+  },
+  "clone_status_after_checks": "M manuscript/main.pdf",
+  "scope": "Same-machine reproducibility check, not an additional independent training seed or cross-platform test",
+  "passed": true
+}

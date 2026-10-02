@@ -44,6 +44,15 @@ is distinguished from publication copies in
   All 71 are unchanged. AgentSpec and its complete author list remain cited.
 - [public_preflight.json](public_preflight.json) records the staged-file
   credential/path scan and staged evidence-byte checks. It reports no findings.
+- [clean_checkout.json](clean_checkout.json) records a full, non-hardlinked clone
+  of cleanup commit `92c717f` and a new Python 3.12.13 environment installed from
+  the lock file. The README workflow passed: 30 tests in 22.04 s, Ruff, the
+  raw-record audit, all four figure PNGs and their inputs matching byte-for-byte,
+  and exact control-seed-11 reproduction (39.44 s wall time). The paper rebuilt
+  without warnings using the existing local compiler. All seven rendered pages
+  and extracted text match the reviewed PDF exactly; PDF file bytes differ
+  between builds. Only the generated PDF changed in that scratch clone. This
+  checks a fresh environment on the same Mac, not a new platform.
 
 ## Commands
 
