@@ -101,7 +101,3 @@ To compile the editable manuscript, install [Tectonic](https://tectonic-typesett
 The original freeze manifest is unchanged: 49 files remain byte-identical in the current
 tree; the original protocol is verified from the preserved Git revision. The current
 protocol is a labeled publication copy. All data, raw results and checkpoints are unchanged.
-
-[Attribution and dependencies](THIRD_PARTY.md) document substantial AI assistance.
-Author identity and individual contributions remain unresolved. No project-wide reuse
-license has been selected. This is an exploratory working paper, not peer-reviewed work.
