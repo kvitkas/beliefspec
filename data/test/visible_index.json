@@ -1,0 +1,4610 @@
+[
+  {
+    "index": 0,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "64f606f53d89fd99e77fb2fb003438dc82326943407ff9039733d9faf324ad0e"
+  },
+  {
+    "index": 1,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "c8f37b4fbc04df9a1d26656f3ae0db411a62961f4bea830065fd95c6bae615a4"
+  },
+  {
+    "index": 2,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "5d197fcb6b5fb44f74d1ce4adecc96c7f2aebd5e52171e3b927495453021b396"
+  },
+  {
+    "index": 3,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "56cc60026311adb0caaa15ce60da5ca8d80734723425bc0d2397c37206fafdd3"
+  },
+  {
+    "index": 4,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "0a8a0c0766ec39bc3fea4bba5b74a28ad63844384992a15e5037ca9d23953607"
+  },
+  {
+    "index": 5,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "c8f37b4fbc04df9a1d26656f3ae0db411a62961f4bea830065fd95c6bae615a4"
+  },
+  {
+    "index": 6,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c2590d5d5d321861cc0eef76ebcccbe7e6ddb8c8123a48cd165d84ec19bc3da8"
+  },
+  {
+    "index": 7,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "56cc60026311adb0caaa15ce60da5ca8d80734723425bc0d2397c37206fafdd3"
+  },
+  {
+    "index": 8,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "e68a2d470670153bf0c3ab258c70ade9fe11aeb55b2dcb8d21507f01eebd432d"
+  },
+  {
+    "index": 9,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5892c06b9b452695640b7921cd5ae9b37796dda45063c493f959514151cc7cac"
+  },
+  {
+    "index": 10,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "bf92a7904d3195957680b4e48cc0cefa3d4c7f9ed9c9b06612529d5fca94d1f0"
+  },
+  {
+    "index": 11,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c0995bfef3fab99e720ae036b3a14b615d78eda15f480a01fa7c92027a28a809"
+  },
+  {
+    "index": 12,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "2af06f37f0df448d0db334d0646cec7d048a39ae750832ead8de44cb24cb6382"
+  },
+  {
+    "index": 13,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5892c06b9b452695640b7921cd5ae9b37796dda45063c493f959514151cc7cac"
+  },
+  {
+    "index": 14,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c0be45fb63bdb425c9a811488b63a0037020c5334289f51673674be476643094"
+  },
+  {
+    "index": 15,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c0995bfef3fab99e720ae036b3a14b615d78eda15f480a01fa7c92027a28a809"
+  },
+  {
+    "index": 16,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "912000ff1357b72e11d6edd8dfa96abe88e7da9c5eac4a01206c30093bb7598c"
+  },
+  {
+    "index": 17,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "a6afc0db575c91c5ab8328d76a32572aaa81de431fd93e1e336d1b501c876ff7"
+  },
+  {
+    "index": 18,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "20a1947622ae399eedb47a45d7ac305cd0057c05a1029f0598b56ad5073655a2"
+  },
+  {
+    "index": 19,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6d239b1d8190d56e176ef55ff4c442faeb7fbcb19f210209eb1a34bab5f5d11e"
+  },
+  {
+    "index": 20,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "c612b3a9c595d23023fa9752d8211c0b3f71f2fb95de612c205b3a540fcacff6"
+  },
+  {
+    "index": 21,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "a6afc0db575c91c5ab8328d76a32572aaa81de431fd93e1e336d1b501c876ff7"
+  },
+  {
+    "index": 22,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c7b06c04240c416582c686f93aceea64e35589acca7c8d9480d9de632289c833"
+  },
+  {
+    "index": 23,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6d239b1d8190d56e176ef55ff4c442faeb7fbcb19f210209eb1a34bab5f5d11e"
+  },
+  {
+    "index": 24,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "331582fe3d0ddea9ead7ef50bd2713dd6d7e21eb899c75e9633d659f51886a01"
+  },
+  {
+    "index": 25,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "e6ef7f8689b9064865376c51ae92bf1ec27afa74ceb73e1934028ed4b3ba24b7"
+  },
+  {
+    "index": 26,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "b4f5b9ba5131ec1aab77954647eb9a071e28de6c437c95b5f8b8a49240af3314"
+  },
+  {
+    "index": 27,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "47da93fefd79ed63faeac65519891657349bea6ca5a23cf59d56352198d79b72"
+  },
+  {
+    "index": 28,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "4c04d51aba9ae8f53c4ef05779b50ef7911119d94e7c2abb6228877a06206405"
+  },
+  {
+    "index": 29,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "e6ef7f8689b9064865376c51ae92bf1ec27afa74ceb73e1934028ed4b3ba24b7"
+  },
+  {
+    "index": 30,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "147ef9d105d1beea76c1c0a86a3183a0b2cdae4521cc044a473e381915b8ab7f"
+  },
+  {
+    "index": 31,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "47da93fefd79ed63faeac65519891657349bea6ca5a23cf59d56352198d79b72"
+  },
+  {
+    "index": 32,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "ba47a4be7d016a8a30e23c5ef75c20925cca44d5e2b879d03820718aabc16b75"
+  },
+  {
+    "index": 33,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "feae2ece17e6c793613bebe55d0b08aac0f1a13fc0359f0b53125e2d1126e448"
+  },
+  {
+    "index": 34,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "9c786b7270d2fa356cc0688d28075de6eb6a75fac7ff75d8c2f5c848c61312c0"
+  },
+  {
+    "index": 35,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "78f9a6787f496dfabfcb84c97ab341fee22676f8f926434283e27c2f8a56235f"
+  },
+  {
+    "index": 36,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "e9603218561a851f03ec20fdf2cafed201ba5e9dc0d3b3df6c4e52b2296238d8"
+  },
+  {
+    "index": 37,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "feae2ece17e6c793613bebe55d0b08aac0f1a13fc0359f0b53125e2d1126e448"
+  },
+  {
+    "index": 38,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "d24ded257079c5970aa38480bbc2b963769d0706e90cefc1be4fa2cd87135e29"
+  },
+  {
+    "index": 39,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "78f9a6787f496dfabfcb84c97ab341fee22676f8f926434283e27c2f8a56235f"
+  },
+  {
+    "index": 40,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "204f7f0992f4488ab11cc9b8487ce208ab071768fac2a9960b24670f5b7d9a75"
+  },
+  {
+    "index": 41,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "efda87036a726fd9bee6ee027f77d94d791618b3ea4d28873fa642919e652c07"
+  },
+  {
+    "index": 42,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "1b4eab868b1a68987aa0ed35d0c5bd86ae1c849c577b040d2de7a0b6ca591baa"
+  },
+  {
+    "index": 43,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "401ece939e5d9519042b7cd2a7ecd369ffcb84793be02bb7897ddb289572377b"
+  },
+  {
+    "index": 44,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "d9934bedad6440daef2e7bbda96cbac40263bf1b65ed2246f39dd902a8b5ec6f"
+  },
+  {
+    "index": 45,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "efda87036a726fd9bee6ee027f77d94d791618b3ea4d28873fa642919e652c07"
+  },
+  {
+    "index": 46,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "fc8c51ad816ca94168ca807fa4c0f1fdfc4959bb057c46ebec839c3c4ea89508"
+  },
+  {
+    "index": 47,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "401ece939e5d9519042b7cd2a7ecd369ffcb84793be02bb7897ddb289572377b"
+  },
+  {
+    "index": 48,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "0ed0240875ae15d5f168aac4ec8ec0473a8f44b1c7c0c8beefec8160f29f083a"
+  },
+  {
+    "index": 49,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b528127dd904ca8c9b40cd78aeb6afc60429bafa4e6f2ef7041fd2d13a5193d1"
+  },
+  {
+    "index": 50,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "d5c13fa524ad294b8c3cbd085cdc45832162a986a494e08c436a1fa8fa210689"
+  },
+  {
+    "index": 51,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "853f783013303c366204f32e9960a44d0b61da0c7076d7477415024413c0a537"
+  },
+  {
+    "index": 52,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "717f7a9776b5d993a23c3d44624e7ee61b19c874fdc965d7fbf8274186228164"
+  },
+  {
+    "index": 53,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b528127dd904ca8c9b40cd78aeb6afc60429bafa4e6f2ef7041fd2d13a5193d1"
+  },
+  {
+    "index": 54,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "08c73a5b1854a77b567612b04be6cdb27f48d8ec70e5f6a145385a196f92cafb"
+  },
+  {
+    "index": 55,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "853f783013303c366204f32e9960a44d0b61da0c7076d7477415024413c0a537"
+  },
+  {
+    "index": 56,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "73702dd8bd1f3c31bf457d37249751a2ffcdcf484f6e1395ead2c3beb97d650c"
+  },
+  {
+    "index": 57,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "3bc8be8b898edd48ea6fac403977669d5a707a84e0fac2f94b24d74718d72ae1"
+  },
+  {
+    "index": 58,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "f5a832d42f5d6d0576dc893bb1b5de809fb4e030367bc6bf3a0249c683ced85d"
+  },
+  {
+    "index": 59,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6ed5efe684fadfc6a029b257fbc5fd0bf8840d005cd698b5dd5090b67c7add67"
+  },
+  {
+    "index": 60,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "4db5670937330d780d2b9ea4b5d2b2ad82083b54f053dbf632043fccef754240"
+  },
+  {
+    "index": 61,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "3bc8be8b898edd48ea6fac403977669d5a707a84e0fac2f94b24d74718d72ae1"
+  },
+  {
+    "index": 62,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "2ce7d2e1beb661efe969afea9dd95924345d6dccb41ea270db875bafbe78ccd2"
+  },
+  {
+    "index": 63,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6ed5efe684fadfc6a029b257fbc5fd0bf8840d005cd698b5dd5090b67c7add67"
+  },
+  {
+    "index": 64,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "dc8437f3e03e75904a2742623a2f180d29ffa382e2f7e59f3882c3cd5c0f889e"
+  },
+  {
+    "index": 65,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "8ddaeda8cbbc264c38f2b09d701fcdbc5ec28a7a677fe001df2ba4e962cd827e"
+  },
+  {
+    "index": 66,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "7d1dc964c5f76d5879bf5fade5706bd653c54fbf186fee09f55594cc03c901bb"
+  },
+  {
+    "index": 67,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "7f391055c0f7d98b405af5f6a9ff06af962f5ead0ed5e8f781ce3a7ce858f9fc"
+  },
+  {
+    "index": 68,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "a84ac8bff3de39ac90b37783e54a2e7b221867580f7501fa88560285bf17ce99"
+  },
+  {
+    "index": 69,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "8ddaeda8cbbc264c38f2b09d701fcdbc5ec28a7a677fe001df2ba4e962cd827e"
+  },
+  {
+    "index": 70,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "78472fc2db40712e914e83485189d25f1875d2a300f200005f6387fc24d06001"
+  },
+  {
+    "index": 71,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "7f391055c0f7d98b405af5f6a9ff06af962f5ead0ed5e8f781ce3a7ce858f9fc"
+  },
+  {
+    "index": 72,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "db2fb71eceec5db2a39ffcdf5198e756c60d3830c09e813fcd677d5f1db72fcd"
+  },
+  {
+    "index": 73,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "941012abdb96c39084b0f885b739041e8f580314d7e8ad9fd59cc17cc4e03b0d"
+  },
+  {
+    "index": 74,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "dbdb8ac9e74eeaca8d3cea0c9dcbf8f6eae792e291a6f1128d59e9cf0469d610"
+  },
+  {
+    "index": 75,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "1640181c7b2fccc9667792b830a85007e7f71db1cae72f80d87383b7ec07347f"
+  },
+  {
+    "index": 76,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "580aa5940bed0ea77b7f7ffef8d2581b8749be65e86ade9bc4fcbbb630e6a22d"
+  },
+  {
+    "index": 77,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "941012abdb96c39084b0f885b739041e8f580314d7e8ad9fd59cc17cc4e03b0d"
+  },
+  {
+    "index": 78,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "46c95e532afae27a30254bdced50c932d9322e6f9373b7bc8013d729c468fec4"
+  },
+  {
+    "index": 79,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "1640181c7b2fccc9667792b830a85007e7f71db1cae72f80d87383b7ec07347f"
+  },
+  {
+    "index": 80,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "58a1977ba40bb64a3dccb8ff1257a89a3cc37af751d580e18a69d9055b28528b"
+  },
+  {
+    "index": 81,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5084623d767ee965e957c786522d33b65299c45fb1db108cfcedf313bfc0c8a7"
+  },
+  {
+    "index": 82,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "d6b9c6f562d6ef6b2ecda51a881b421f40348a5e9c5ae3d222846705d356e5f1"
+  },
+  {
+    "index": 83,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6621d114949c22b22de58e184275b508c36c0439f4647ae188ff2808a12725d3"
+  },
+  {
+    "index": 84,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "700a912dfffa2b8b01de43bbcf5dcc2519dfb5d1e6888e4958ed6698f5e7c167"
+  },
+  {
+    "index": 85,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5084623d767ee965e957c786522d33b65299c45fb1db108cfcedf313bfc0c8a7"
+  },
+  {
+    "index": 86,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "9ddfe2640ead412ffed3535725a936bbda57d1f807f2123ff020bdf51960e654"
+  },
+  {
+    "index": 87,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6621d114949c22b22de58e184275b508c36c0439f4647ae188ff2808a12725d3"
+  },
+  {
+    "index": 88,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "cdd571a5588012247b51d283f075d9b91de1c2d3c6c7a636f80e92a2a2395a01"
+  },
+  {
+    "index": 89,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4744245d4e86195bda1def9947630c49864c47b9a33367671b303433d59dac41"
+  },
+  {
+    "index": 90,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "ede9124772cd0db18db27fbb3ca634b25d199657d38c519c698b49e3a25cf195"
+  },
+  {
+    "index": 91,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c236e57d4d122967771a842f8f66ec0b99e3c22abe0e8a010443dacde701baba"
+  },
+  {
+    "index": 92,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "fd86afa19052a119e1de754adac4e9f0fb9acdb5572908742671f525c5c71ee9"
+  },
+  {
+    "index": 93,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4744245d4e86195bda1def9947630c49864c47b9a33367671b303433d59dac41"
+  },
+  {
+    "index": 94,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "0f441a17ab21da86cf1cc8ca579bb99f117199be4957d84c4ea3e4d2f6d6c6b6"
+  },
+  {
+    "index": 95,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c236e57d4d122967771a842f8f66ec0b99e3c22abe0e8a010443dacde701baba"
+  },
+  {
+    "index": 96,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "f40bec8fc96dc2069101b27dd5235c91d4dbba3609c7220928624f89ea97195d"
+  },
+  {
+    "index": 97,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ae44a688990979d942738b1cf7ba24a642b756b4df65e31babcd07ae32574c09"
+  },
+  {
+    "index": 98,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "70f4d9d82a558546a9b7d2a88473343f44d9447f1fe3020fbe66b530d29d3f1e"
+  },
+  {
+    "index": 99,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e17d046f1399feb04f007e9f018a8d2aef845f2f98d45fc914467bd250ffff10"
+  },
+  {
+    "index": 100,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "330b1c631d7b22369775fd2db2064dbb910219adfd48321ba6846b8d1e6998c8"
+  },
+  {
+    "index": 101,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ae44a688990979d942738b1cf7ba24a642b756b4df65e31babcd07ae32574c09"
+  },
+  {
+    "index": 102,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "e6c64a8656d138320bdef27dd42a9a35b9bbb6b8bd3d9a4a338a7f6ad1f77c0b"
+  },
+  {
+    "index": 103,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e17d046f1399feb04f007e9f018a8d2aef845f2f98d45fc914467bd250ffff10"
+  },
+  {
+    "index": 104,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "625c685798e8a291ccfe12018d5dac6dcf506588953f512fdbe232b7a47d0353"
+  },
+  {
+    "index": 105,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ffff0c03f48b098533bcc0e1886cae3a26bcfa78885de4eb4e50c531a911e4a3"
+  },
+  {
+    "index": 106,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "ab5ea5910e25a3704b5ea205d7370ae35008914b62946bcda1e74c087786a87d"
+  },
+  {
+    "index": 107,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a22421532c6c79b2e9592b2e46d73a27cb37c7877c6ad5692e75d6780c3550db"
+  },
+  {
+    "index": 108,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "e8422f9b1cc0b271d28a62bfaa19c276894aa201cab16f5ec69f45c6d88e01cb"
+  },
+  {
+    "index": 109,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ffff0c03f48b098533bcc0e1886cae3a26bcfa78885de4eb4e50c531a911e4a3"
+  },
+  {
+    "index": 110,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "b75232bc7eeb5d9a3ecad19c8595dac34513da8891e741d0fc886d47d5cab19c"
+  },
+  {
+    "index": 111,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a22421532c6c79b2e9592b2e46d73a27cb37c7877c6ad5692e75d6780c3550db"
+  },
+  {
+    "index": 112,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "a974ddd1fdfe613693b4e8e937f91b2f9960fb844fcc80e1e84582b7959f44bc"
+  },
+  {
+    "index": 113,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "041334aae2c505c5c63170840a0e8b53aac6021bd83ae24a42b3e728557ebb3e"
+  },
+  {
+    "index": 114,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "0d01234f1fdc68e9fe35f52d520b384bd83e21be3c1588cf73e912140881e5f2"
+  },
+  {
+    "index": 115,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f1f24da916f7dd96d33f1e9e654f658320e9bd2786445e5544137ad2d13b5723"
+  },
+  {
+    "index": 116,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "07199e97bd8130aebbed9569dd57ca9cfa359e831234a12976fdc7292c98cb54"
+  },
+  {
+    "index": 117,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "041334aae2c505c5c63170840a0e8b53aac6021bd83ae24a42b3e728557ebb3e"
+  },
+  {
+    "index": 118,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "a22a95466942f4a78289b8e9ab6cc1831d8439c31fafb37f9b58d22ab28f004c"
+  },
+  {
+    "index": 119,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f1f24da916f7dd96d33f1e9e654f658320e9bd2786445e5544137ad2d13b5723"
+  },
+  {
+    "index": 120,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "39c8cf0e02bb62901173672df447d9cb4581b8d778391f083f9e1dc1e44c2576"
+  },
+  {
+    "index": 121,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0023115db6e431828930076b83b098d357e9b0e20f096154e2837ae305f4697e"
+  },
+  {
+    "index": 122,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "6805545eeb7ade4e83f3c854cd89bf0a23cf55a7f70eabd4b99698881a175a1d"
+  },
+  {
+    "index": 123,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "618424587148c292727d07bfd81f75d4b3af7969c9949d03565237f77ef46963"
+  },
+  {
+    "index": 124,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "afc5dffc3c69668541bb59572ea2855063c7b9ea8a974a2645a6b289bd8b147a"
+  },
+  {
+    "index": 125,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0023115db6e431828930076b83b098d357e9b0e20f096154e2837ae305f4697e"
+  },
+  {
+    "index": 126,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "7dbd9b7c7b3205f1f4ba5de02cb193332c1972c78265244f7f62800da2765889"
+  },
+  {
+    "index": 127,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "618424587148c292727d07bfd81f75d4b3af7969c9949d03565237f77ef46963"
+  },
+  {
+    "index": 128,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "9e5a6f318a00395c15bc4870421183673783664782a2ede323ee53958384af91"
+  },
+  {
+    "index": 129,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0d5bc2fe6208215a904cdd774ab7e67205864f0ba2fdfdffa0cf4915a2533288"
+  },
+  {
+    "index": 130,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "6f39c611ea4634407a71d269b7741216628fdbec9819436aff3a6b1062ac3daa"
+  },
+  {
+    "index": 131,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f19e8ec0b606b4b4b963eb0dca8a1a4b13b093f432fddc9836eac45b334969c1"
+  },
+  {
+    "index": 132,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "4adff30d26069b581c51158d53c0c79913cd4a6f86f7eb7fe1c208280edb0910"
+  },
+  {
+    "index": 133,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0d5bc2fe6208215a904cdd774ab7e67205864f0ba2fdfdffa0cf4915a2533288"
+  },
+  {
+    "index": 134,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "5817738a071393fa7036e567677e0ba8b02b74781bfd9b046265d88520618f87"
+  },
+  {
+    "index": 135,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f19e8ec0b606b4b4b963eb0dca8a1a4b13b093f432fddc9836eac45b334969c1"
+  },
+  {
+    "index": 136,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "f63d32d2868f55660c5624f99c79c147b4e48d8c1b85222497bdcde5ba3d86d6"
+  },
+  {
+    "index": 137,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6207054aedd840a7288eefbd4b108d69792535c7ae517f4c3ccec1fa3a66e530"
+  },
+  {
+    "index": 138,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "b1f227acb9fd18c8dc95f4b42df1e3733a5df310fdd5e41fece67f5ddbf21ad0"
+  },
+  {
+    "index": 139,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "5bdbc3319254a04c69d4638640852a4793a6b17d4aab114eac1c4c626d76ea31"
+  },
+  {
+    "index": 140,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "346ddf2fc183710e0e1782ae7732c95847517ee97bac86807c62ef691180e57e"
+  },
+  {
+    "index": 141,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6207054aedd840a7288eefbd4b108d69792535c7ae517f4c3ccec1fa3a66e530"
+  },
+  {
+    "index": 142,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "242e371e946cf55a644e57c6c393b5d9b40bee03b588a45b561c10085e49f4aa"
+  },
+  {
+    "index": 143,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "5bdbc3319254a04c69d4638640852a4793a6b17d4aab114eac1c4c626d76ea31"
+  },
+  {
+    "index": 144,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "c88f16a011938ad94b52e4a99457dc99f8277b8fba02496d5c5d28993c499523"
+  },
+  {
+    "index": 145,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "67b76664807967010cdca83fa465240af5ce59abc30c608e558fadd7423e46ba"
+  },
+  {
+    "index": 146,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "1c471bd6eeb777da6b5f5731f1d24fd44ef8ed0d46f86019107940892bea19ad"
+  },
+  {
+    "index": 147,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "220c83d9b46023eaf171cf79a92c8d1a35ca3875faf7006032f8441bd3c8c426"
+  },
+  {
+    "index": 148,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "2e8c0c04b9703edbe04d3b9a466c31ce23f0270dd8ba92bfaf1d928212b5ab5c"
+  },
+  {
+    "index": 149,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "67b76664807967010cdca83fa465240af5ce59abc30c608e558fadd7423e46ba"
+  },
+  {
+    "index": 150,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "bbb8a6901e4c4a02c7e5b118a8ec27a29539eb6cb704052b91c29a1ed0c6c31a"
+  },
+  {
+    "index": 151,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "220c83d9b46023eaf171cf79a92c8d1a35ca3875faf7006032f8441bd3c8c426"
+  },
+  {
+    "index": 152,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "52b7f349f7a72c9db3ec629ddfbd7ee5ccc94ba2150a1e75d4c3fb8ae9115e3a"
+  },
+  {
+    "index": 153,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "e010e812bcc7a0acaba7c608c799851c2148329e3377dc790dc422fb9494de80"
+  },
+  {
+    "index": 154,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "0830f716a66cad1d009cdefe58abbd298af6085ee1228220bb5850e5a9027416"
+  },
+  {
+    "index": 155,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "67efbc2e888e2f5349532f472fb5c1a99903106f67041f9ffd51a6f6315d4f68"
+  },
+  {
+    "index": 156,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "acfba93e6ce8e2d1a8dcf48940b2595d811b234963815b41f0001736a5a6e445"
+  },
+  {
+    "index": 157,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "e010e812bcc7a0acaba7c608c799851c2148329e3377dc790dc422fb9494de80"
+  },
+  {
+    "index": 158,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "2eb12809a841d26d93171947ef06d2b78534addb86d3d85ce7eda8b8cb7f211f"
+  },
+  {
+    "index": 159,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "67efbc2e888e2f5349532f472fb5c1a99903106f67041f9ffd51a6f6315d4f68"
+  },
+  {
+    "index": 160,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "d8eb8af5bd3e0f81019635966cce3dec6f4a0a89f35dd4cfe86b5a2cff775903"
+  },
+  {
+    "index": 161,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "152379277c534e37e6a417b8f25b3047e8bc3e242b83f48f857dd5f705bd7157"
+  },
+  {
+    "index": 162,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "be8111eead34a7721c5cd6251511e3dec2642d5edce6f50d796f1dd391848268"
+  },
+  {
+    "index": 163,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f91d058a74c648560e3bace6a624d3e77dd7dfca83acc27dc8d02607c2d79dff"
+  },
+  {
+    "index": 164,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "a9b4ba8f48ed7d6e5b4b06532376c73764ad1ce45fd3830b3f568d4b53f50993"
+  },
+  {
+    "index": 165,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "152379277c534e37e6a417b8f25b3047e8bc3e242b83f48f857dd5f705bd7157"
+  },
+  {
+    "index": 166,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "2662379c591c031fe99c8dd898ae8da78a4adcc69ec1d63f80ef647ac91fcb17"
+  },
+  {
+    "index": 167,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f91d058a74c648560e3bace6a624d3e77dd7dfca83acc27dc8d02607c2d79dff"
+  },
+  {
+    "index": 168,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "d8ef96a8a4210ecdd03e1dc168788f289cd2a305e7129e93f34d246707eba956"
+  },
+  {
+    "index": 169,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "1da8d6a196fcecec91c109d847ef788580e01d8905c7231e3abd1112ab818680"
+  },
+  {
+    "index": 170,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "be3931052e4684a2653d8cd50d8bd1e493723161a74991338f9701743f51b9a5"
+  },
+  {
+    "index": 171,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "942a1b067b65fa829a2f9c2129bad52c5dacb99b3136d86e37cfcc7e7142b01d"
+  },
+  {
+    "index": 172,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "7cafbcaba2ecd1e6cf762c2fcc7323c76472b3875a1f3e0d0444b4fe4b026452"
+  },
+  {
+    "index": 173,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "1da8d6a196fcecec91c109d847ef788580e01d8905c7231e3abd1112ab818680"
+  },
+  {
+    "index": 174,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "544eafb835eb1db772e4cae9d07d99e4f22043dd2aa5783b9c3f38c89effbceb"
+  },
+  {
+    "index": 175,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "942a1b067b65fa829a2f9c2129bad52c5dacb99b3136d86e37cfcc7e7142b01d"
+  },
+  {
+    "index": 176,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "160f0246cf9127019780618d4e13aed86a07559de30be0ea4de7443d8e2960cd"
+  },
+  {
+    "index": 177,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b4a4f7d4d83bc35fdfa268d6fc972ada4968cf04a2ab0255fc0f00b3a41c4ae9"
+  },
+  {
+    "index": 178,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "611a4f55774922c081a0032e952a910c9feea6d5e2af725cf133edf02fdfa899"
+  },
+  {
+    "index": 179,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "1ab2508e1dc4515213d98660624fa943ae55c7927817f842944fbeec030cdaca"
+  },
+  {
+    "index": 180,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "4c47aa0f349e1da603e838727bcc049c0bce434c490174989f8c5071a124dcfb"
+  },
+  {
+    "index": 181,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b4a4f7d4d83bc35fdfa268d6fc972ada4968cf04a2ab0255fc0f00b3a41c4ae9"
+  },
+  {
+    "index": 182,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "4cff1e39737fba82a370621d2162aa042d956bcc1e8ec315fcf02f0c5ed34293"
+  },
+  {
+    "index": 183,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "1ab2508e1dc4515213d98660624fa943ae55c7927817f842944fbeec030cdaca"
+  },
+  {
+    "index": 184,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "2a1b73df5a1c9a0735c959821bd59513da4cfa614dab65a9cb60c1a5c6718ebd"
+  },
+  {
+    "index": 185,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "1f5f0d2bcb7e2f7bb14f5c0923856fa7ad0ccf7be2533738f728b74347b168eb"
+  },
+  {
+    "index": 186,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "43b2acdf9ccd9ba4c2ed963092861f228183775f20702d0090b972ad6d0b0c56"
+  },
+  {
+    "index": 187,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "54957dc8fc266cee65e36f0f7cadb48ac49f2cb76677e2793919211204624e31"
+  },
+  {
+    "index": 188,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "9b8106affca486f032495249e362c7f5a801cf10c33db30f03438e8075e23f4b"
+  },
+  {
+    "index": 189,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "1f5f0d2bcb7e2f7bb14f5c0923856fa7ad0ccf7be2533738f728b74347b168eb"
+  },
+  {
+    "index": 190,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "3b0fc33445adcd5e3e7a25d8a12d15aa5bf886cffe93f5935ba191da0ea048ce"
+  },
+  {
+    "index": 191,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "54957dc8fc266cee65e36f0f7cadb48ac49f2cb76677e2793919211204624e31"
+  },
+  {
+    "index": 192,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "b95f65c4a6fdb63ec68685a81351834c9df76d4391a6c927039eca1fb2592d1a"
+  },
+  {
+    "index": 193,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9711a1a2a2ff0c71ac40a17435cb03af183e3931f7d12a21764576d5ac529693"
+  },
+  {
+    "index": 194,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "1312310362e29a32630b4588a35dd25926d175c8680df7bb70364e192ab6de20"
+  },
+  {
+    "index": 195,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "fd8fbfe6a2aad35bcc1906236e9e3c311c97d25c66802dc2a289a9eec5479c9a"
+  },
+  {
+    "index": 196,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "41f7002bddfbe1fda9f95fbfe1f20d35cbc04a7a938d7ef5f78c03430b79ae5e"
+  },
+  {
+    "index": 197,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9711a1a2a2ff0c71ac40a17435cb03af183e3931f7d12a21764576d5ac529693"
+  },
+  {
+    "index": 198,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "e1fa8012f427ecb76727b24e5d8c4e4032cc52579c0f83487737780645cf7b62"
+  },
+  {
+    "index": 199,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "fd8fbfe6a2aad35bcc1906236e9e3c311c97d25c66802dc2a289a9eec5479c9a"
+  },
+  {
+    "index": 200,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "7d1a8875024d4e04dca30241d203e3a9f6fc9e76f89f6e45f16a104516902bb3"
+  },
+  {
+    "index": 201,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "32484a35b64325db18c20018d251a88d4896591f64b83ca5c53479d987b09b8b"
+  },
+  {
+    "index": 202,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "50e33051b24f6638d12695c794794baff42e01bea58557c924c0e7db26503e1e"
+  },
+  {
+    "index": 203,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8cb56c628dd297c9b315620e2e11eba4ec910816b4d7015a68a1fc730040a103"
+  },
+  {
+    "index": 204,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "b80844d54f00d210efa191f42cdf5ec70a25450fb7f915a8c27b7fab6a01992b"
+  },
+  {
+    "index": 205,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "32484a35b64325db18c20018d251a88d4896591f64b83ca5c53479d987b09b8b"
+  },
+  {
+    "index": 206,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "98f3d7480659b85103e282ec25f14156b9485ae5bf58085832873f054b2c4f67"
+  },
+  {
+    "index": 207,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8cb56c628dd297c9b315620e2e11eba4ec910816b4d7015a68a1fc730040a103"
+  },
+  {
+    "index": 208,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "7b9186dd75aacc38fba9f8a631a882cd23208b2910bb2485663a26c4820c027e"
+  },
+  {
+    "index": 209,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "43f59d34009fc842826d6aa425503b397b127279f22d36e35b7776a01ba82df1"
+  },
+  {
+    "index": 210,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "a2e1c79e3b7fff45bb35c42c582a1da81e3859a2584d73c394716b080a036069"
+  },
+  {
+    "index": 211,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "66eb6b98e2faf3a84a10fe85bfd3e9dcd46a72f7829ddb44c1dc3c03d006a921"
+  },
+  {
+    "index": 212,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "dae8d05e739e6bead3a3e7e6b64a0132950aa723d4d73bc423bf0d31f231c0c3"
+  },
+  {
+    "index": 213,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "43f59d34009fc842826d6aa425503b397b127279f22d36e35b7776a01ba82df1"
+  },
+  {
+    "index": 214,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "e69d943178147390c1cd7c69dcbf9c50cfc44942abfe0cc51ac75ddf43e2b6f3"
+  },
+  {
+    "index": 215,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "66eb6b98e2faf3a84a10fe85bfd3e9dcd46a72f7829ddb44c1dc3c03d006a921"
+  },
+  {
+    "index": 216,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "ca2c1b0783b059cfcb75f194fea18146995584849020f767600253aa2c26b8df"
+  },
+  {
+    "index": 217,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5ed0d52b7162bcaa47f502479946b1e39f25fa141059b51351029ec54233b454"
+  },
+  {
+    "index": 218,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "a2174973fb86b3e5c7f706e5f92f7936da719a1ca4b61e5f6e52ed43313af940"
+  },
+  {
+    "index": 219,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "52fce50f3bbe970ffe9cff7cdea505479574724e4a4bf90b4ec5eab4c0d2362d"
+  },
+  {
+    "index": 220,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "cfc217e3bdd9b99593967559e7b69e5e8157ebf736a3aac39f47da77f1388d89"
+  },
+  {
+    "index": 221,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5ed0d52b7162bcaa47f502479946b1e39f25fa141059b51351029ec54233b454"
+  },
+  {
+    "index": 222,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c8b2f592b7b8b268fcc288ac79eef2cfa3583da8399d2f8d80e87db7d5148193"
+  },
+  {
+    "index": 223,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "52fce50f3bbe970ffe9cff7cdea505479574724e4a4bf90b4ec5eab4c0d2362d"
+  },
+  {
+    "index": 224,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "dd573c15337c222bb28e6ecc7a895a2c806d4dde5fb3f8c9b0cca4fc81ac987a"
+  },
+  {
+    "index": 225,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bc4ad9316aceaca4eb49bd17cce04401f5604ed6324d0a0b1538ca5d77427272"
+  },
+  {
+    "index": 226,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "131ed466b1e4e0acdea6387722056fe1f865b3313b021e0ad4ccffc6308bdb6a"
+  },
+  {
+    "index": 227,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "2ebef24bbb37e5fc995136c5bef5e51ade68f83caa248a5ddbc01122a374ba63"
+  },
+  {
+    "index": 228,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "9527136017e86a093bf6949598e5619919c851b5164b0ec1c54dd69452c3066a"
+  },
+  {
+    "index": 229,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bc4ad9316aceaca4eb49bd17cce04401f5604ed6324d0a0b1538ca5d77427272"
+  },
+  {
+    "index": 230,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "0e34f3e2655f61935e8dfc0c09809ee8f0ed672ca491db9397ed0dd191ccf33c"
+  },
+  {
+    "index": 231,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "2ebef24bbb37e5fc995136c5bef5e51ade68f83caa248a5ddbc01122a374ba63"
+  },
+  {
+    "index": 232,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "593bd3dab0a4cc455fdb3dddcec559d281efc2f982510eb47b03d31eebfcc99a"
+  },
+  {
+    "index": 233,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "09ef99de155a97ff691421a3c2a8ccec7509dd374cd4c0a5ab28d7f9ad68cdf7"
+  },
+  {
+    "index": 234,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "72309cb8c3a15aff43e897db9fb2fb133b233f10625fabd42e1e8e6524f3ba81"
+  },
+  {
+    "index": 235,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a369f9c5a4ef1a0d23581de6c7d5a32c787f544684d738e43f23f9a2e14c1cdd"
+  },
+  {
+    "index": 236,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "d1b7fe4bfd2acd0f9f8a253aa7e423bb2463e8971289bd4982edceee7585e4c7"
+  },
+  {
+    "index": 237,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "09ef99de155a97ff691421a3c2a8ccec7509dd374cd4c0a5ab28d7f9ad68cdf7"
+  },
+  {
+    "index": 238,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c647783b260f25b5eba76022ac5c7b0def11b0c2cbec54cae1c6dfa1148ff790"
+  },
+  {
+    "index": 239,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a369f9c5a4ef1a0d23581de6c7d5a32c787f544684d738e43f23f9a2e14c1cdd"
+  },
+  {
+    "index": 240,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "e8c906b136314baa28020194229d10be9a48b4c109bbe5527eb1b1c03e158168"
+  },
+  {
+    "index": 241,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9223bcb23292ab6060ce60a33bbb7bac4802f40834fc6144a20f56c132ae3e36"
+  },
+  {
+    "index": 242,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "21b6fb2f40b5315f66d87d29e52612c02ad70efb424dd90293848020704101bf"
+  },
+  {
+    "index": 243,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "55142a2e126a582fd70b92386840b3771393ba0d356b8e42f806875411c231af"
+  },
+  {
+    "index": 244,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "501fa1aa31d66083472ce0b311b55b2439a112b097a1d44613cd82c30f5cd42c"
+  },
+  {
+    "index": 245,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9223bcb23292ab6060ce60a33bbb7bac4802f40834fc6144a20f56c132ae3e36"
+  },
+  {
+    "index": 246,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "db4c92420df89ea047afac9e426381ff9ea005febacc098ea2ffcf678813fd90"
+  },
+  {
+    "index": 247,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "55142a2e126a582fd70b92386840b3771393ba0d356b8e42f806875411c231af"
+  },
+  {
+    "index": 248,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "bfa9fa579c80da3d667abc92e462924685c18bcb4e981a5739f732fcb61a0188"
+  },
+  {
+    "index": 249,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bd71bb9de1e6b57b19bbce2d2c397134fe46fc23aa9905e05838129e98a88e31"
+  },
+  {
+    "index": 250,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "35bf47e38e766e253a9e02cea3ef70a990841daa52c2b6b2d1452eb2de8439c3"
+  },
+  {
+    "index": 251,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "9ac709825089f67e3cb35238cf918ea32d4c56ddd376fe98e02f6cb23806d77c"
+  },
+  {
+    "index": 252,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "7eddcdece6b9da313e34d52dd65257a2c65f70f8d1a72f4c00bacfa23149a4de"
+  },
+  {
+    "index": 253,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bd71bb9de1e6b57b19bbce2d2c397134fe46fc23aa9905e05838129e98a88e31"
+  },
+  {
+    "index": 254,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "977b3e81ec4ba8a6153d3bc2274c893f19c876ef97c1f71b6f72b5f68771bd94"
+  },
+  {
+    "index": 255,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "9ac709825089f67e3cb35238cf918ea32d4c56ddd376fe98e02f6cb23806d77c"
+  },
+  {
+    "index": 256,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "24a685c21ef5f1f233ad0d7a577b7ba97292651eb16e5f72741989bd6a540551"
+  },
+  {
+    "index": 257,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "16e345c8b4f5464f1889f4c8eab6d1541782956f9823c2200c10bcec94437d85"
+  },
+  {
+    "index": 258,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "c68e4da41696d019d5bb097d7c942f04c7a2259cd24f5bd9517e9430ca7d70eb"
+  },
+  {
+    "index": 259,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "5bacdaca9e06d536c475be157fb37814c456e77b5b00f55271c0dc4a3e586de2"
+  },
+  {
+    "index": 260,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "0967d012ec0b5bb99682fae134c565d2063c2e01b3ab7572855647733e955905"
+  },
+  {
+    "index": 261,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "16e345c8b4f5464f1889f4c8eab6d1541782956f9823c2200c10bcec94437d85"
+  },
+  {
+    "index": 262,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "739a62dcb47757ff79ab774d736521259c9800b5eb5914d1c1c709fcea7825c5"
+  },
+  {
+    "index": 263,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "5bacdaca9e06d536c475be157fb37814c456e77b5b00f55271c0dc4a3e586de2"
+  },
+  {
+    "index": 264,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "6c1e59e8b43c2a3c8764b09276be541619d3c7c846b8e13e80201df7ea04bff6"
+  },
+  {
+    "index": 265,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "475cd09ec5cf93a4708a5959edaa6323dab2485111a1418769699cb49114c199"
+  },
+  {
+    "index": 266,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "ced086570bbe7e710cae8671bb82c36c7b07388868b1094dba60566fc967efb6"
+  },
+  {
+    "index": 267,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8bbe38d8f61eb10f920f16ad09af3276425250ff14d8f349d2d2c30a8ed1cb71"
+  },
+  {
+    "index": 268,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "8b96e32e6354e0676e09a1f48571c28e841c0f6eee88c637131c751d28d3d4e8"
+  },
+  {
+    "index": 269,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "475cd09ec5cf93a4708a5959edaa6323dab2485111a1418769699cb49114c199"
+  },
+  {
+    "index": 270,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "d1e523a463cb179a9534658cf5fde9e6bed5a79cb73e3563ad038cabaff1628c"
+  },
+  {
+    "index": 271,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8bbe38d8f61eb10f920f16ad09af3276425250ff14d8f349d2d2c30a8ed1cb71"
+  },
+  {
+    "index": 272,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "640bf088e4829f25a6992adba89633fc3ac6418862217639dd8b0fffbae6dc9f"
+  },
+  {
+    "index": 273,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6b9a1608ccd7beea7364278f5a44611dbaee43bbee9843602577cfead41b1693"
+  },
+  {
+    "index": 274,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "f2477a1b2119222853baacb2d50549d5eb8540ab494c0843ffaa7d4d9cab6c5b"
+  },
+  {
+    "index": 275,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "66b1454e40c7ffdfc550eaa34cebbfa071e444ff0a29b3872e16cd25197629cc"
+  },
+  {
+    "index": 276,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "0c853fdf9edd60785ca217ea2c7f252e3585bd900a6a4c3b9cf8cb0d8d96f588"
+  },
+  {
+    "index": 277,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6b9a1608ccd7beea7364278f5a44611dbaee43bbee9843602577cfead41b1693"
+  },
+  {
+    "index": 278,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "38e5783bc20b882c51729e16b0a454aa1f81b66866f71714013422b9a33b7875"
+  },
+  {
+    "index": 279,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "66b1454e40c7ffdfc550eaa34cebbfa071e444ff0a29b3872e16cd25197629cc"
+  },
+  {
+    "index": 280,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "16be47e90311c87d2975d123eecdbc1dc2694645109a82e226f55ce34852d385"
+  },
+  {
+    "index": 281,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "07fde77e1ea515627c86dbcf62bcc1376a5c0840295ccd285ea6214d5ff56be9"
+  },
+  {
+    "index": 282,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "e1275c293fbd6675819c2dc771a7f8f2fc0d25d3d7fd51d0dab3aa4926cd8213"
+  },
+  {
+    "index": 283,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e2bce95b6b06a1fa446ba42fd235783f8c1771fc9a6ccb364609cc70855a0edf"
+  },
+  {
+    "index": 284,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "c128af862a5b6a34a9651a4575ce4de310f8bf63ff9a978a0dc11b043b6522da"
+  },
+  {
+    "index": 285,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "07fde77e1ea515627c86dbcf62bcc1376a5c0840295ccd285ea6214d5ff56be9"
+  },
+  {
+    "index": 286,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c598729a1b668707a84807f8561bdc0f29ec4d065000a6457298a5d38720990e"
+  },
+  {
+    "index": 287,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e2bce95b6b06a1fa446ba42fd235783f8c1771fc9a6ccb364609cc70855a0edf"
+  },
+  {
+    "index": 288,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "5883c2d57afb7063d413fa53f3bdeef9478d897f055ba5b711a26a871ece5cf3"
+  },
+  {
+    "index": 289,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ae30810920d246f7faf607fd968704541fdd33bbb9bc48ddb2ebf9c34d43e689"
+  },
+  {
+    "index": 290,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "11273b6db346461ca74b8d78ce076734573348ec607c2807f023ddb36d2508e1"
+  },
+  {
+    "index": 291,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "95f1301e1d3e66d9fff1d40cf4090a65fb6fb89e70d9459cd85c9a336af664fe"
+  },
+  {
+    "index": 292,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "2d1dd2cf79a6bb5f2cc05b7af890d8a8f75cee98e6ab8fa97d1e9010f96b6ff5"
+  },
+  {
+    "index": 293,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ae30810920d246f7faf607fd968704541fdd33bbb9bc48ddb2ebf9c34d43e689"
+  },
+  {
+    "index": 294,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "6289ef16631ea9f532fbb14d3770afc786affbe7fb0d54df359d9a894fc120d7"
+  },
+  {
+    "index": 295,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "95f1301e1d3e66d9fff1d40cf4090a65fb6fb89e70d9459cd85c9a336af664fe"
+  },
+  {
+    "index": 296,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "3da9c8df4d11fb3e41c99ec58b49ae5e27daa0d776f4c2353ae9f62d9fdb90d7"
+  },
+  {
+    "index": 297,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "eb198e01f4c2b9901281c65e95d50af038dc624caaf7c65a842762ce5c17d1d5"
+  },
+  {
+    "index": 298,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "f7dd8565e46339eea244f74cf458c9fa7c52ddf12f2e2caf9fec01fe25cc98f8"
+  },
+  {
+    "index": 299,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "aeee35db8388c008569c3c6b901d073544bf076bbc9e1c14d1b0a587a53cce13"
+  },
+  {
+    "index": 300,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "bbf2d91fd11f9f54c73b0db78f659f8fc4b4976f6bff4c286075434fdafff932"
+  },
+  {
+    "index": 301,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "eb198e01f4c2b9901281c65e95d50af038dc624caaf7c65a842762ce5c17d1d5"
+  },
+  {
+    "index": 302,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "fd3bb7fe22f0a1cd802c7fcd9ec92d7948f916d1af23d446e44289221bd9d7e5"
+  },
+  {
+    "index": 303,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "aeee35db8388c008569c3c6b901d073544bf076bbc9e1c14d1b0a587a53cce13"
+  },
+  {
+    "index": 304,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "2c52276541be1698456a19c02d85f9f990d60281f9b2c6ce65aa54f72b493fad"
+  },
+  {
+    "index": 305,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d9fc8e841c54a4dd5bd3e37c2b8d43d49b08829c6173032f7ffc330b0070bf93"
+  },
+  {
+    "index": 306,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "b9bf2c735f2d679b372965e925e24d59742585c9888908632135fd87dece01ad"
+  },
+  {
+    "index": 307,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "31e905020f7c0e88c058bf4af74d72b5fb6f74719e6301c02b7835892a4a048d"
+  },
+  {
+    "index": 308,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "cef76b92efc68efc858ae221c647403a46fa49e3e4838a1d0b862fc4bbe04057"
+  },
+  {
+    "index": 309,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d9fc8e841c54a4dd5bd3e37c2b8d43d49b08829c6173032f7ffc330b0070bf93"
+  },
+  {
+    "index": 310,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "62635c400d1d1ab6ab49d4adb4f9ecc56cb544ba5efe55b6bf6ad3e4dcd22935"
+  },
+  {
+    "index": 311,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "31e905020f7c0e88c058bf4af74d72b5fb6f74719e6301c02b7835892a4a048d"
+  },
+  {
+    "index": 312,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "16e8be633cea9cbe4810cb57d2746d30ef48322b4b1020108ad64dc0c9bce43c"
+  },
+  {
+    "index": 313,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bfe151558d6edc7c55f8a99c4a044ea8c942fd1552061f4fafa28872f6f72d15"
+  },
+  {
+    "index": 314,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "912638a5a7c72b56fdfbe916ea43d05256386a68aa1f0b0a7db0687374920d24"
+  },
+  {
+    "index": 315,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f93a44a506eefccfff01024323b96ad42ed22952ea309e5fc6fece07190c39f5"
+  },
+  {
+    "index": 316,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "ae59faeab68dad40e9ab770945967b928147464b6ef396c3aa58bdb56bc28711"
+  },
+  {
+    "index": 317,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bfe151558d6edc7c55f8a99c4a044ea8c942fd1552061f4fafa28872f6f72d15"
+  },
+  {
+    "index": 318,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "6efb841caf3abc071a04b6c2e90bfb70e389a567a475474fecc3d36bb521644a"
+  },
+  {
+    "index": 319,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f93a44a506eefccfff01024323b96ad42ed22952ea309e5fc6fece07190c39f5"
+  },
+  {
+    "index": 320,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "41af14130cd1cf942a4668fe26dba11ac802bebc8edbb265a0f031829001e655"
+  },
+  {
+    "index": 321,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "8f555daaeda6a308b48a673cee4b19a93488c5b85a74cf68b0e49ec091902fae"
+  },
+  {
+    "index": 322,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "745b2dc4f5f9131efe26195d5b186e4966abf94caa0108644561b1ba3e173279"
+  },
+  {
+    "index": 323,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c3cc4aa6c262f8f48fee344e07cd12071689dfd3e4245bfa7b1e04d519b02fff"
+  },
+  {
+    "index": 324,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "3229e54f8b6545cff5610b65036b223d279b5babe1ce0653b26d11add17e3dc0"
+  },
+  {
+    "index": 325,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "8f555daaeda6a308b48a673cee4b19a93488c5b85a74cf68b0e49ec091902fae"
+  },
+  {
+    "index": 326,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "fb07d9d23f938fb6d4c8f02fc85bf2e69e0be695a3a0426c390491ba66886684"
+  },
+  {
+    "index": 327,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c3cc4aa6c262f8f48fee344e07cd12071689dfd3e4245bfa7b1e04d519b02fff"
+  },
+  {
+    "index": 328,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "2f3680c56a9f1ad1124c22dbe94861ea139904284fc1c916706bbe2d4f1e2b1b"
+  },
+  {
+    "index": 329,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "15768ebdde45ed275da82634547507b86e8755fa6b9bfa0c7a005be790287b4a"
+  },
+  {
+    "index": 330,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "9e9724442cb1ea144443656639b26f19d5b091487a225f5cdb3c81f2fdce3c6d"
+  },
+  {
+    "index": 331,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "df7ac8fd18c2e08bc07ece635660fa8d3cf8a5cacabf81a80c171b941683a455"
+  },
+  {
+    "index": 332,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "c6e21b892ece797086fa5806fa4a461c1076a7a9c76aca9b9817a5e14044209d"
+  },
+  {
+    "index": 333,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "15768ebdde45ed275da82634547507b86e8755fa6b9bfa0c7a005be790287b4a"
+  },
+  {
+    "index": 334,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "559f2dd039885154f192e7d069e244b1123db0a8bfb3bdb44faa93a0508fa10c"
+  },
+  {
+    "index": 335,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "df7ac8fd18c2e08bc07ece635660fa8d3cf8a5cacabf81a80c171b941683a455"
+  },
+  {
+    "index": 336,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "b7c20d3295dc4cbc387ed8c4e72ac17b16f820fd3de40249216b52c679342b2d"
+  },
+  {
+    "index": 337,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "adf11342b36d95b2d2c223e033c7284c6b174a286af4db8630faf4e41468dae0"
+  },
+  {
+    "index": 338,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "136790e4bac2da8f72e6dfe2897207cc1921b7041784b12d924f7e9a1ac0eca5"
+  },
+  {
+    "index": 339,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "7ce761c4d34a1b47218fc56c54be0e471bb5ddc2ed491f670ac9e4ee239d98a0"
+  },
+  {
+    "index": 340,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "7d2d5e08d039f3dceaddbf631d793e3176805e986b3bc92f4bc002dbca8270b6"
+  },
+  {
+    "index": 341,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "adf11342b36d95b2d2c223e033c7284c6b174a286af4db8630faf4e41468dae0"
+  },
+  {
+    "index": 342,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "21c342b19b12af20b4d39c4663116c38ec96982d90846b9e1a0bf59291d55fd1"
+  },
+  {
+    "index": 343,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "7ce761c4d34a1b47218fc56c54be0e471bb5ddc2ed491f670ac9e4ee239d98a0"
+  },
+  {
+    "index": 344,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "1f98d7c5fcd8882c2f2eab7387c6eebacec922b3cda2d462d90bc41f6a03c86a"
+  },
+  {
+    "index": 345,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "082903e55bcddc85807959b8d4e960a58b8160451d7b7512ac9019c6ffbcb087"
+  },
+  {
+    "index": 346,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "7b7d453d42386fd9e68524c80b96a48be0b362d7fd7ad8533ff1aa7ecf06cffd"
+  },
+  {
+    "index": 347,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "4bead7bf8a65a39eeebe49ea641f8413d80cf15b9db99416cb19006fb7b5d11a"
+  },
+  {
+    "index": 348,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "5f0b857c8a40213c736b53633f274ee0e5e3ae49d7988539731b4707782f6dc4"
+  },
+  {
+    "index": 349,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "082903e55bcddc85807959b8d4e960a58b8160451d7b7512ac9019c6ffbcb087"
+  },
+  {
+    "index": 350,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "bc3aed05bdd92c49086c578984ad2f5fb87d22ec6e179a2202889fab9b960465"
+  },
+  {
+    "index": 351,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "4bead7bf8a65a39eeebe49ea641f8413d80cf15b9db99416cb19006fb7b5d11a"
+  },
+  {
+    "index": 352,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "f026d0a0f1ecaab384b8e15746bbbd1ac69a79ef44816a290874d4bdf0ea3c08"
+  },
+  {
+    "index": 353,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "3228b54b4ea96bb2bccd2531652f50fcaef9d065c2c3fbc854166308f2543c82"
+  },
+  {
+    "index": 354,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "aae1049a3bdd3009e4e5c772ff918ec0919ded7e3150e27da0f2aaaee91fa5dc"
+  },
+  {
+    "index": 355,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "488f43405816c9a84f36e2859c642c5978d5560d9e38671ff198a45f74225991"
+  },
+  {
+    "index": 356,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "82406c36b79f306bd5f8773605f3eb29a91c34df36792b72235de9438c619264"
+  },
+  {
+    "index": 357,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "3228b54b4ea96bb2bccd2531652f50fcaef9d065c2c3fbc854166308f2543c82"
+  },
+  {
+    "index": 358,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "5739c4383c2e8b128576cf84d7502e1ae7f47a3408c552fe047d0753799f752d"
+  },
+  {
+    "index": 359,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "488f43405816c9a84f36e2859c642c5978d5560d9e38671ff198a45f74225991"
+  },
+  {
+    "index": 360,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "784c418c20687983c288e20be0df1f42e3137742b9ce18cafa8c687665da6e2f"
+  },
+  {
+    "index": 361,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6d8d1675218a7cf7c11aed48770c85c94ca51528b30416c644d16b1a5f313be2"
+  },
+  {
+    "index": 362,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "acb98ad8dbaa0e0e5eb0c1d39f987b476c67c2336727d8036cdea87ec837bae4"
+  },
+  {
+    "index": 363,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f908eb2aaf67047330c13dd12ae4dcd3ed2add084c29e2500020de0bebc6ef67"
+  },
+  {
+    "index": 364,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "a064659a63d1c64b4be402aa7ca549479b08423713ca8f456ca409c88c18c5e9"
+  },
+  {
+    "index": 365,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6d8d1675218a7cf7c11aed48770c85c94ca51528b30416c644d16b1a5f313be2"
+  },
+  {
+    "index": 366,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "d6b90356ff830a54758b42de64e25d1e0c65c34d3e37f4fd31089c390f05afd4"
+  },
+  {
+    "index": 367,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f908eb2aaf67047330c13dd12ae4dcd3ed2add084c29e2500020de0bebc6ef67"
+  },
+  {
+    "index": 368,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "bb9b3491e9f2e2337b145e71aac98efb64c592072a7c95a8ddde33f8206f07e7"
+  },
+  {
+    "index": 369,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ca26b161cccfad1957fef8fc2b6a7d54c694993636058d03a0ccb1cb1cdba329"
+  },
+  {
+    "index": 370,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "7607e168ee7b645f2dd8f618ce984683c6753bf930b4719526174872fce33f06"
+  },
+  {
+    "index": 371,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a5d9998498524a28518b22cb355e622a542d656fbfccea94df4bfeb5e2049cff"
+  },
+  {
+    "index": 372,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "024d1b6096ea72d2fa4a4aeaa323a8db8ca087c445df5c2797091012c64bf2e6"
+  },
+  {
+    "index": 373,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "ca26b161cccfad1957fef8fc2b6a7d54c694993636058d03a0ccb1cb1cdba329"
+  },
+  {
+    "index": 374,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "9606db7baf6a149453e3b58df68b4232de571bbd6ef84b4adc3ebe9d5fbe3c6f"
+  },
+  {
+    "index": 375,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a5d9998498524a28518b22cb355e622a542d656fbfccea94df4bfeb5e2049cff"
+  },
+  {
+    "index": 376,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "bde4c9be408d47c73dd9d1580e51f0c4f6dd87cf0433615046c7b94b210094cc"
+  },
+  {
+    "index": 377,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "8dcc29b8135dc175584e4d55f12830dc0e8eb2310ba631e0cb53576713834d7b"
+  },
+  {
+    "index": 378,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "12090e9a498a74e43a1daa8e726012de122eb10bb2ff972e002e6dd3361dd74f"
+  },
+  {
+    "index": 379,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d9918dcf159ebfb2c6ea6c5f92afc2458e2e29d80d8d34e2decf98036dd8ac30"
+  },
+  {
+    "index": 380,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "a1aed449ef5d2c27c14cec5f38c3faf9fc33716e4215db9feae3bb982650285c"
+  },
+  {
+    "index": 381,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "8dcc29b8135dc175584e4d55f12830dc0e8eb2310ba631e0cb53576713834d7b"
+  },
+  {
+    "index": 382,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "fd2373b615b636e7df19ae13a11a2970e54011d116b17aada2c9a00736fefbd1"
+  },
+  {
+    "index": 383,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d9918dcf159ebfb2c6ea6c5f92afc2458e2e29d80d8d34e2decf98036dd8ac30"
+  },
+  {
+    "index": 384,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "93838aa90347c60ed478c05e4240ff1a18af773a5fc12d06cc820a50fa53d514"
+  },
+  {
+    "index": 385,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4ce3290dcdc08f7727fb36997ceb4a78b05f47dcdadb3e7f45ce2ad7c5a86ced"
+  },
+  {
+    "index": 386,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "1d41e69be5f23e7461097691277cb657d383bae3c76e6da4e192adfb14e89006"
+  },
+  {
+    "index": 387,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e4dc3089a5999da315f865a97e97b18ab2bb0d0d4f4983ecb9e051a39a3bf89c"
+  },
+  {
+    "index": 388,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "6ae7e52ea58cdd97ac82ceff3a2491ec6048e81a94d8cd0c99c0d8fbf3363aeb"
+  },
+  {
+    "index": 389,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4ce3290dcdc08f7727fb36997ceb4a78b05f47dcdadb3e7f45ce2ad7c5a86ced"
+  },
+  {
+    "index": 390,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "bfdf9c4915e747fee06ebf4236489bbbabc117544e30595d3e906d4e19cf59da"
+  },
+  {
+    "index": 391,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e4dc3089a5999da315f865a97e97b18ab2bb0d0d4f4983ecb9e051a39a3bf89c"
+  },
+  {
+    "index": 392,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "f5a62adf04478eaa57b74153ef99e7ce69b32524a1c50b52155139da0f278970"
+  },
+  {
+    "index": 393,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4af50b23ace27ee4d5a379c0b6568bd512ded8185b4bf6b76ded3e93755fdca6"
+  },
+  {
+    "index": 394,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "c5226505348a9aa32751ce050791a25a68f79af0c87d76ae762096ea51304154"
+  },
+  {
+    "index": 395,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "0f3ba52ddf57e7ae9c15e6fbf6f644f71d7dfa78ee17358382cc46dca5b606cb"
+  },
+  {
+    "index": 396,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "578ffce684522bfebb627f60d1b57ba012d30ecf5ccb5ea80ef6cbc75a61fc91"
+  },
+  {
+    "index": 397,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4af50b23ace27ee4d5a379c0b6568bd512ded8185b4bf6b76ded3e93755fdca6"
+  },
+  {
+    "index": 398,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "97b4577d3de3b7c3f68f93cb66ea6743b7487cc4b48250e0f84ba4193b121b8c"
+  },
+  {
+    "index": 399,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "0f3ba52ddf57e7ae9c15e6fbf6f644f71d7dfa78ee17358382cc46dca5b606cb"
+  },
+  {
+    "index": 400,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "76e43d44d8e9f5e00551605e16abaa1e4467211223b2d6e05edd7f9b97b810e6"
+  },
+  {
+    "index": 401,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "7b86762bf36f2ed633baaac838407963febc046421c38d626d5ab33e920e7e8c"
+  },
+  {
+    "index": 402,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "16653b04e25ccd851097bb6b087d1bc15f8d6933464378e44f1229aeff0138c6"
+  },
+  {
+    "index": 403,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "038be5a83d672c93ce75a6f5c79932ae61d107d8ead67b92506301a55db5d65e"
+  },
+  {
+    "index": 404,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "60319d2ab9947fee64c8d69d2abdc7159e1fd6f101c37891a11e51718e3da565"
+  },
+  {
+    "index": 405,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "7b86762bf36f2ed633baaac838407963febc046421c38d626d5ab33e920e7e8c"
+  },
+  {
+    "index": 406,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "919f33db84f1a219bc0cbff6bcecdf7a90149169bff82f39d0e1cfc43ba74bce"
+  },
+  {
+    "index": 407,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "038be5a83d672c93ce75a6f5c79932ae61d107d8ead67b92506301a55db5d65e"
+  },
+  {
+    "index": 408,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "08747f69bf8522952ec94de715e83b4a06960d40e06450c779c697d9c45a663d"
+  },
+  {
+    "index": 409,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0a741f2882d97cc5b07a74376e13f9e3baf95ad1b14f6b79ecdc75991814fa19"
+  },
+  {
+    "index": 410,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "860e514226c2e7fef0badb67220bb576686feb4c8020ecd66715329f009464b9"
+  },
+  {
+    "index": 411,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "da8a3c6f3ef2d1661e0ec1ffe47ef494d105e9377860a8a9c0c2f53d39bbec8d"
+  },
+  {
+    "index": 412,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "804345cca6db496aa44db09622a24808142b28ac440f95d6ee9faffb771d3e17"
+  },
+  {
+    "index": 413,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0a741f2882d97cc5b07a74376e13f9e3baf95ad1b14f6b79ecdc75991814fa19"
+  },
+  {
+    "index": 414,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "6cc29416860ba0a72cb54b9120182465b26870cb9eecc10fd8ce2d0f7b593bb7"
+  },
+  {
+    "index": 415,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "da8a3c6f3ef2d1661e0ec1ffe47ef494d105e9377860a8a9c0c2f53d39bbec8d"
+  },
+  {
+    "index": 416,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "18b3d392994aff06305d5da5d190ae127467b20119253e619853d14cbbac945e"
+  },
+  {
+    "index": 417,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9832f0f19f6097d704d17a7492a3c4be4665156b25bc7cdb44ca70b4b5de461e"
+  },
+  {
+    "index": 418,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "d20f504d175731357779f9bc44d339159b3b2fbb027be8a6219accdd01895ecd"
+  },
+  {
+    "index": 419,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "2179887be4c8a16a9dddd303c0caaf3b620c3e1940dee09af19f055bf625a46d"
+  },
+  {
+    "index": 420,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "5df83ae4e80902a15407238f3eb2b6542e53ef562116e56873d7a3ed8cc54cc3"
+  },
+  {
+    "index": 421,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9832f0f19f6097d704d17a7492a3c4be4665156b25bc7cdb44ca70b4b5de461e"
+  },
+  {
+    "index": 422,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "89354a76186cc89acbb0fddeb8349a2fa2cc844a04e8e1c62b87b90115909ed0"
+  },
+  {
+    "index": 423,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "2179887be4c8a16a9dddd303c0caaf3b620c3e1940dee09af19f055bf625a46d"
+  },
+  {
+    "index": 424,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "2bdfcd448e662c8d15255b5fc04a397b1588b0479efada43f36cdbccc1b1896a"
+  },
+  {
+    "index": 425,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "42ddc22dac115162427702c1f3734157168d6f494c65a6152644eca61f58c849"
+  },
+  {
+    "index": 426,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "e7c6d804e74edb64e912a3eaee36248178a2927eeedfab33123e0daccf814fbb"
+  },
+  {
+    "index": 427,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "571e777de8f31758301b7d55a8b9e8ee6a4f77cdf98d4b4428ea266bd700d392"
+  },
+  {
+    "index": 428,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "632c95bdf96b889c8238c1c5e36fe4d3f129e67eb29273a91b410085ae17cab3"
+  },
+  {
+    "index": 429,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "42ddc22dac115162427702c1f3734157168d6f494c65a6152644eca61f58c849"
+  },
+  {
+    "index": 430,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "cebc5b4a105ac5e721f1aab9b8944add9576eda2f8d0937e9cf60a68c7215faa"
+  },
+  {
+    "index": 431,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "571e777de8f31758301b7d55a8b9e8ee6a4f77cdf98d4b4428ea266bd700d392"
+  },
+  {
+    "index": 432,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "cb3c2ecfc0159e4c3fd325dc85cb32bfd413ab5ad78c88a252d3b7473c23c9e7"
+  },
+  {
+    "index": 433,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b80a550aaba38d5b81adaaa490030b707927003b2da873eb2867ede7be189a7e"
+  },
+  {
+    "index": 434,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "7f83a91b1b66f7ac4b3d57c98df426fdca6e7bf5860e3dd2abbe51635df546c7"
+  },
+  {
+    "index": 435,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8f29b269f8529cd5cf399cbc7be68a036c707b4fc79a4fa488f395ccfca01e5a"
+  },
+  {
+    "index": 436,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "24752bd79b77acff2d0b24f0821d5ea142840f81b3ed3731d253a21d9efb60b2"
+  },
+  {
+    "index": 437,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b80a550aaba38d5b81adaaa490030b707927003b2da873eb2867ede7be189a7e"
+  },
+  {
+    "index": 438,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c4c085d2888d64ff524e16cd4229f47acbaae55473ea7837e2ae42f2c0c1785b"
+  },
+  {
+    "index": 439,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8f29b269f8529cd5cf399cbc7be68a036c707b4fc79a4fa488f395ccfca01e5a"
+  },
+  {
+    "index": 440,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "7d27d222b0f471f6a9be26eaa432c28bff0794700fb9aaa665dc513e7b69bf3c"
+  },
+  {
+    "index": 441,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5416326443f9f79c6cce9d08fc88233417466947cff95538a821a449b9daf2a4"
+  },
+  {
+    "index": 442,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "80258cd604bb9dcbb6872928fd73716349489a4afb2a81df50a825df81e00a56"
+  },
+  {
+    "index": 443,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d9e52d248c5c19f4a48248ff8011de4e619d8da749931ba74c9f88aa00d4b415"
+  },
+  {
+    "index": 444,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "0676d6fd1a467112bb795ebd61fc14ccf6f2ba50d9c87ee41d4e13b57b783a3b"
+  },
+  {
+    "index": 445,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5416326443f9f79c6cce9d08fc88233417466947cff95538a821a449b9daf2a4"
+  },
+  {
+    "index": 446,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "19067ec4e14d2b382b3e1518623a74dd75c27af17a262ab43d0a7650f6b63419"
+  },
+  {
+    "index": 447,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d9e52d248c5c19f4a48248ff8011de4e619d8da749931ba74c9f88aa00d4b415"
+  },
+  {
+    "index": 448,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "5f8c42b4264b2f6a41f2e2bfcb61348547a6fdbce032d6534887f4e1522f0f09"
+  },
+  {
+    "index": 449,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "f6259dfd2009eb63068f4b85ad0fee44dee79af8d88bb46c239f3df1801dc905"
+  },
+  {
+    "index": 450,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "93c28f501fe05752c02ed0bf678b687f0aaaa778a472b59875ac9e9f169820d7"
+  },
+  {
+    "index": 451,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d5a5cb3e5a0b83df500b99206f2c09a538f4319323134f9242954232ee70d83e"
+  },
+  {
+    "index": 452,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "b85d3c9f0564db97c9ee0cfc836af66aea76560a0e65b214cd956cddaf90104d"
+  },
+  {
+    "index": 453,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "f6259dfd2009eb63068f4b85ad0fee44dee79af8d88bb46c239f3df1801dc905"
+  },
+  {
+    "index": 454,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "e9d7efb94f2d4ac104611ae9fa4d8659179288cfb6376300493a01dc9bc524ae"
+  },
+  {
+    "index": 455,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d5a5cb3e5a0b83df500b99206f2c09a538f4319323134f9242954232ee70d83e"
+  },
+  {
+    "index": 456,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "dafab6efb699992b89cc55c88acbb27354f81100eac8c9dd9dc1b64642cbdf4b"
+  },
+  {
+    "index": 457,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5b8823b2335d3c42a978b25bdf0c4126f705f20f932443dc299e4975fff901c7"
+  },
+  {
+    "index": 458,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "1086bba9acf170ab159c547d86b6f8ca97a00ea14005312945e30ed0f0396f5e"
+  },
+  {
+    "index": 459,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "bfa128e611b33a646ca59bba5b9f2d5368b63beda26a81cce05adbe337f10bb8"
+  },
+  {
+    "index": 460,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "cb669aafc9319b9b7f4da452156450d53a5ba9ed90bd40825696874cf5d69d9f"
+  },
+  {
+    "index": 461,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5b8823b2335d3c42a978b25bdf0c4126f705f20f932443dc299e4975fff901c7"
+  },
+  {
+    "index": 462,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "6492f8f0d6bc77bf9f95ce523c04fdae4e5407c839b41d2c75edf70770de1086"
+  },
+  {
+    "index": 463,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "bfa128e611b33a646ca59bba5b9f2d5368b63beda26a81cce05adbe337f10bb8"
+  },
+  {
+    "index": 464,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "14b7e059a58a70e6b0a5b561525271fb9b3f3738268ae8e97fea188ab9ba87f8"
+  },
+  {
+    "index": 465,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b3f36d0c2277f0211b538e0d0c0806e054541240366bde67a6b33da80101a6c6"
+  },
+  {
+    "index": 466,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "9395417f27e6e40c5bc738a5abd3bd2d340c2256c8d49b745d9cfce226f9d799"
+  },
+  {
+    "index": 467,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "1eef479b4047ccd4369c6e473c850b148192e1cce37fc218a6d4488a0ae6af43"
+  },
+  {
+    "index": 468,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "0e2c88b76c9f37032368a733729cd4c54fa3adfa4a70a9d017ca960272e024b6"
+  },
+  {
+    "index": 469,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "b3f36d0c2277f0211b538e0d0c0806e054541240366bde67a6b33da80101a6c6"
+  },
+  {
+    "index": 470,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "a84078140a9c6be7b30545695c8ee5d522b3b32184e04d0b1722c1624b8c26fc"
+  },
+  {
+    "index": 471,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "1eef479b4047ccd4369c6e473c850b148192e1cce37fc218a6d4488a0ae6af43"
+  },
+  {
+    "index": 472,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "ed0652479ecabd86b43a820e0ba9b26b48dd71ead4225f1386ec20eba8d80a99"
+  },
+  {
+    "index": 473,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "201ff3d294709a68b72d5ddcf0719e0fcf87a540c315a26f51b941cccde399ff"
+  },
+  {
+    "index": 474,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "be6b39692b0dded4e9fff004db7d16292f19380b7828834ebb0edd202c15cce7"
+  },
+  {
+    "index": 475,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6b11227d715c750fa3fff9ad36ac80c36193be6f9deaf3b6abbc5ad1f84f85d0"
+  },
+  {
+    "index": 476,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "c2f95c0781fb6e54554e090cabb0223c0ec2b62ae2fcab692d35c7fa595da81c"
+  },
+  {
+    "index": 477,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "201ff3d294709a68b72d5ddcf0719e0fcf87a540c315a26f51b941cccde399ff"
+  },
+  {
+    "index": 478,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "328f565a14ea246c52fee6a3fdb5b986e6836e16d9f5fa2d6976c44f9b8dcfa6"
+  },
+  {
+    "index": 479,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6b11227d715c750fa3fff9ad36ac80c36193be6f9deaf3b6abbc5ad1f84f85d0"
+  },
+  {
+    "index": 480,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "58fa8af60dc9910dbbf5b80e4875b276e86d6a47eb5f21385ec68322c95338a7"
+  },
+  {
+    "index": 481,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "a6aba7865bee116d415f7f0d48ca7d6974619820ebfb366119913738abe67930"
+  },
+  {
+    "index": 482,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "e551ae68b82fbbde4d7d13381c3b7fe070a35e5c491287fe75b486602249012d"
+  },
+  {
+    "index": 483,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "060629a92fe236e3bf81cd6681a7797ebbdd84b3cf0caedafb9405d482dd834f"
+  },
+  {
+    "index": 484,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "13d1124bb3bbb02168823ec9d8555c961ee76bbdc96f23055dabe5248d36b22e"
+  },
+  {
+    "index": 485,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "a6aba7865bee116d415f7f0d48ca7d6974619820ebfb366119913738abe67930"
+  },
+  {
+    "index": 486,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "829eea491eea4a97c22473815d1e068fc7534dca00d2a2861aa23f7eb3d67249"
+  },
+  {
+    "index": 487,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "060629a92fe236e3bf81cd6681a7797ebbdd84b3cf0caedafb9405d482dd834f"
+  },
+  {
+    "index": 488,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "8e84405f8ce641551b9a5640423c15c5de1a2b410c18dd40e8605fda4dc8d193"
+  },
+  {
+    "index": 489,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d5b0de4774e0dfa9d832c7d073e14109db1a9774699ed8d9da5e0c59c0b23fe9"
+  },
+  {
+    "index": 490,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "6195aaa555cf12570d6f76f8638345485413c428333e7929e735c326ed8bfccc"
+  },
+  {
+    "index": 491,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "ae70368ceb6ec114ae42b269b0c3bb3b679a8ab9789b2e80c05a93d28701d30b"
+  },
+  {
+    "index": 492,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "c70cee6e39467a46a059e3f5555c9a8fff5ae8a2d2026f969adcaa1c78ccf9e9"
+  },
+  {
+    "index": 493,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d5b0de4774e0dfa9d832c7d073e14109db1a9774699ed8d9da5e0c59c0b23fe9"
+  },
+  {
+    "index": 494,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "1684fbd1e092e0185e2e155b0655e4ca035a95f43b3554f9f25c0038c85d7a9b"
+  },
+  {
+    "index": 495,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "ae70368ceb6ec114ae42b269b0c3bb3b679a8ab9789b2e80c05a93d28701d30b"
+  },
+  {
+    "index": 496,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "9e5defe2f9d83198eda0583afadb2438ed807f067edbe0eaf49cf74528b8e13a"
+  },
+  {
+    "index": 497,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "70f6512d25f16c274dfc39cfc850179c6a201a4cd332c8c7484136faf08246fa"
+  },
+  {
+    "index": 498,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "57ec856dee136df25d58638eb56a5c06af6a1035735ae611b2591f0393bfb8ab"
+  },
+  {
+    "index": 499,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "0bfd46c6279dca30070067e353677052bfb151ba10e7b2a13dddc5d23cb833ce"
+  },
+  {
+    "index": 500,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "3da7b060067d316af6e9f42d2b7e7cd7473ec35e9eea297ac578e364dff68228"
+  },
+  {
+    "index": 501,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "70f6512d25f16c274dfc39cfc850179c6a201a4cd332c8c7484136faf08246fa"
+  },
+  {
+    "index": 502,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "9e666e621e88e8f22385af953702cd5f133b6d1861920f5fc40b99f770fe1ff7"
+  },
+  {
+    "index": 503,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "0bfd46c6279dca30070067e353677052bfb151ba10e7b2a13dddc5d23cb833ce"
+  },
+  {
+    "index": 504,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "d65f398de6d284383f33284362bf112c04da5743c3bccf70d351e8566ab20d6b"
+  },
+  {
+    "index": 505,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "842a5ef868135abdd50c5f52f9806ee0e107e0acac0a76689c41233df289222c"
+  },
+  {
+    "index": 506,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "64fca981f6dd0db656fa38609c962598c3e083a5122acb0757055ec891159204"
+  },
+  {
+    "index": 507,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "5de0a542b09fec39576e9ae2207606778405250382c467f2965096b961cf227a"
+  },
+  {
+    "index": 508,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "be1c48ac0482bf527583c258f8dd3c2756d30a45017780e194c3faaca818a178"
+  },
+  {
+    "index": 509,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "842a5ef868135abdd50c5f52f9806ee0e107e0acac0a76689c41233df289222c"
+  },
+  {
+    "index": 510,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "155d8ea178660aa598454f9e68cf18e6a62ff222a5cd5c78ba0a92077b78a9dd"
+  },
+  {
+    "index": 511,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "5de0a542b09fec39576e9ae2207606778405250382c467f2965096b961cf227a"
+  },
+  {
+    "index": 512,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "c6d0177ef1af223c55ae0e1561f4c628cea7891bb832cdab3ae4edca121aac39"
+  },
+  {
+    "index": 513,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0d47dbf3d84589f5f343b342bd880884dd270eb6df4c2bbcb883fd80d5afbe3a"
+  },
+  {
+    "index": 514,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "57e118292e362c3749ed24ff5ff259bf404f1810f212d0ec3f9e640e5ddc98a5"
+  },
+  {
+    "index": 515,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "733e56d95644540c736401ee1239ad8f4bea52ea510567c7c4c2100a99df2387"
+  },
+  {
+    "index": 516,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "c757f9cdc099bb14ca1a46bf58f15f113ead17fd93ab022433c32a7e5932d4a6"
+  },
+  {
+    "index": 517,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0d47dbf3d84589f5f343b342bd880884dd270eb6df4c2bbcb883fd80d5afbe3a"
+  },
+  {
+    "index": 518,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "db80d9dcb3ed7516685ad9d7c8a426d0a836404d9b566351bc4c847b8b0efcf1"
+  },
+  {
+    "index": 519,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "733e56d95644540c736401ee1239ad8f4bea52ea510567c7c4c2100a99df2387"
+  },
+  {
+    "index": 520,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "ab9ba8a9d2a5285c82ee82dc34ff2ea1941e7f0433efdd06fa0174c6cd228c7c"
+  },
+  {
+    "index": 521,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "64d224bde2aff2406d070696eb9dfc45060e4c98acaae8307f8151b039dbe81f"
+  },
+  {
+    "index": 522,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "841e3f13ae16bcf23ba0a09758c72c5e769732b1d216b2f3bcbc123978cd0ef3"
+  },
+  {
+    "index": 523,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e105c7c85dd7f88a7c06050f26335587c494e8242a4e1b186217df7d4968cae5"
+  },
+  {
+    "index": 524,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "d05f6135861f499ca22d09038cb66254c7898770e83648193336c48f5abc4769"
+  },
+  {
+    "index": 525,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "64d224bde2aff2406d070696eb9dfc45060e4c98acaae8307f8151b039dbe81f"
+  },
+  {
+    "index": 526,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "ed55c61abb3b6508644cf270d3b21435a0b8ab4d22058fc6b4fb57f0e1c06577"
+  },
+  {
+    "index": 527,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e105c7c85dd7f88a7c06050f26335587c494e8242a4e1b186217df7d4968cae5"
+  },
+  {
+    "index": 528,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "7722df449d88a298ab92023179a3bd7a359da2c0394867df8d807c7eaf330fac"
+  },
+  {
+    "index": 529,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bb74b8d7c114b322c83dcfabe71029f348521d86b061959311e28811f89c1736"
+  },
+  {
+    "index": 530,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "ba91401ac1d64051f694668a5cc9af1fe044b3caaa71e1eb3e227b0af7dfa85f"
+  },
+  {
+    "index": 531,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "00c8a20e481b6428afb8daf913b00ff027f7cf69941c989821b7a6ca39f0a0cd"
+  },
+  {
+    "index": 532,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "a85a568840665c22690db7ca9f7db09bbc3ed069fca9b2843e87b1006e251148"
+  },
+  {
+    "index": 533,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bb74b8d7c114b322c83dcfabe71029f348521d86b061959311e28811f89c1736"
+  },
+  {
+    "index": 534,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "82270ec6b06217d3a4bf806895bd1cce0e46a2e2292cd2a7de2db37d12528a95"
+  },
+  {
+    "index": 535,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "00c8a20e481b6428afb8daf913b00ff027f7cf69941c989821b7a6ca39f0a0cd"
+  },
+  {
+    "index": 536,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "6766261f3d4aeacff85bdfcc3c56b404ec3358282ea3576700620f4980805fc2"
+  },
+  {
+    "index": 537,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4a735fe49b6adb7566143ffc710f1ee1382cc89d1a835e75723d8a53fd1ccd03"
+  },
+  {
+    "index": 538,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "6cc59d584f78891ee2dcb2cb282a0118e3914a4c016844ca5a33aa7ee3c3400c"
+  },
+  {
+    "index": 539,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "739948050f168352b2c3bc0f9c2635c393bd1da34234d1e035bcf3a0956ec76b"
+  },
+  {
+    "index": 540,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "cc7a1ae1cae3add05792fe966110980b1a082e4415dc85d5da5893d356eaa7e1"
+  },
+  {
+    "index": 541,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4a735fe49b6adb7566143ffc710f1ee1382cc89d1a835e75723d8a53fd1ccd03"
+  },
+  {
+    "index": 542,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "19c796c6932cd009e97cc5eacbc9eddace0140030e255d92deb64d1b3b5619af"
+  },
+  {
+    "index": 543,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "739948050f168352b2c3bc0f9c2635c393bd1da34234d1e035bcf3a0956ec76b"
+  },
+  {
+    "index": 544,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "aa10e2aee6a4077faa5e4c5b5e6a981753ee774cb120efceceaecd96fe02fd6c"
+  },
+  {
+    "index": 545,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "58aae001d8b0a7852bf3181c00e1cd825ab9cb7f2e59ce78192a9a169d80e18f"
+  },
+  {
+    "index": 546,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "cf5af11aa5141497e5610320c77bbbe23d58e9e4eeeab6974e72d0bef12d84be"
+  },
+  {
+    "index": 547,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "96dc95422436e5398413032624d54408e8b59cd6f32ea04d0737da26bac344f6"
+  },
+  {
+    "index": 548,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "9c97efbeab456ae6e3966cd80e468ed21ee04118026bedf1f8be1842f5552fef"
+  },
+  {
+    "index": 549,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "58aae001d8b0a7852bf3181c00e1cd825ab9cb7f2e59ce78192a9a169d80e18f"
+  },
+  {
+    "index": 550,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "33b86dbc8f3edb6707c4fcb0e778b09e46f1a49eb2a2c08364a23ebeaf5e3048"
+  },
+  {
+    "index": 551,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "96dc95422436e5398413032624d54408e8b59cd6f32ea04d0737da26bac344f6"
+  },
+  {
+    "index": 552,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "d727125a133c15733aa3ed49fca3532b3c49598efaaaceef5fd1cd65288912c5"
+  },
+  {
+    "index": 553,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "1fbcbbc758197864f00385e67c8cb8cc00394387762aca3835af522907c3ef0e"
+  },
+  {
+    "index": 554,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "49b49f447ddb5f57fb4b3628088e54174ddb46c0bfba1697f3eb97f04218d05a"
+  },
+  {
+    "index": 555,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "cbb20afd01888d952eef60c91facf7be760506fb814cfb472ee26528a6266249"
+  },
+  {
+    "index": 556,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "7075d2c7562be720855207741954c36c12843700a46cd9daea4373fc37d1e0b7"
+  },
+  {
+    "index": 557,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "1fbcbbc758197864f00385e67c8cb8cc00394387762aca3835af522907c3ef0e"
+  },
+  {
+    "index": 558,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "231f87fa5b720067e6ee35381c47cc2d857e073ea990b658f1939f526965861c"
+  },
+  {
+    "index": 559,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "cbb20afd01888d952eef60c91facf7be760506fb814cfb472ee26528a6266249"
+  },
+  {
+    "index": 560,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "3b0a9120be322060ef58c405774ad6f10c0f5c847ca67fc65f397581313f31cf"
+  },
+  {
+    "index": 561,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "53240a54a7565176f760d3b49c0dc26c14beca9e84ebdf23da90264e4bbbfcd5"
+  },
+  {
+    "index": 562,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "2b1c837ded1c045fd2a72013a23cee95c584ad3585db73d3f2cf090313b8316d"
+  },
+  {
+    "index": 563,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "55ca2aaa07ad0f8e4afa015cc971cdfbf86aaa39df5b030cf7260bd85ca1cf5b"
+  },
+  {
+    "index": 564,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "9c79a97b63cbf1abd4bedaf49f70a8720f8eefe07ec03e63cb81e9a0fd1b924c"
+  },
+  {
+    "index": 565,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "53240a54a7565176f760d3b49c0dc26c14beca9e84ebdf23da90264e4bbbfcd5"
+  },
+  {
+    "index": 566,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "f230a5a0a8306d1dedd7d948f136fb36978bc5ce7ee9972e9b3caf255d1599ca"
+  },
+  {
+    "index": 567,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "55ca2aaa07ad0f8e4afa015cc971cdfbf86aaa39df5b030cf7260bd85ca1cf5b"
+  },
+  {
+    "index": 568,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "494244880c2e2e42e4dffad4867cda27604aebfb38bb1acb1287a7ff843b1ebe"
+  },
+  {
+    "index": 569,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "793025aadaaede5ce50fa206230d8b5e0b27758947e782866bde5bd4bbf18c5e"
+  },
+  {
+    "index": 570,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "d48c0496ef87a1a9c25be45c225d34fd8526860b6f29d4320ae2d09fd9d6b686"
+  },
+  {
+    "index": 571,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "0c57b47d275ee7f1afaaa795d6c82c6ea4bc5da9fd3a3391aaefb2230dcff1d6"
+  },
+  {
+    "index": 572,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "7f4137417e7f0a9dc817c0c8c34c2bf8405dce7063fd1fbee76df9b40462b6f9"
+  },
+  {
+    "index": 573,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "793025aadaaede5ce50fa206230d8b5e0b27758947e782866bde5bd4bbf18c5e"
+  },
+  {
+    "index": 574,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "bb92e1865d1a79b687d654951473ae2691ec88e9bd9037bd821e68d8ffb44bd7"
+  },
+  {
+    "index": 575,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "0c57b47d275ee7f1afaaa795d6c82c6ea4bc5da9fd3a3391aaefb2230dcff1d6"
+  },
+  {
+    "index": 576,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "bf899df82ce0719656d4a67aec74bc5bb91c2613fe67fbdfac4453aa085e9195"
+  },
+  {
+    "index": 577,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5ced96db6fe99f52bf255784d9016e19b1526ff1aedf1955783e8ab22979c2d3"
+  },
+  {
+    "index": 578,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "1efc62c3d87532c501ca92de32722b0adf5cf08d3060ed332d80ffed1303d994"
+  },
+  {
+    "index": 579,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6c54e9a74dbb3e9f94a691dcf3e2e1a7988634ca3854314c65418db6c4968cf4"
+  },
+  {
+    "index": 580,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "e92ef78a49ae423553e46adb4cb5a18db0b3c2ea273ba1b5a144946dca779919"
+  },
+  {
+    "index": 581,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5ced96db6fe99f52bf255784d9016e19b1526ff1aedf1955783e8ab22979c2d3"
+  },
+  {
+    "index": 582,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "a9bfcf1d62e4fad1841283d3a4576936d57fe9de5921ddf09f09700d93626ae4"
+  },
+  {
+    "index": 583,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6c54e9a74dbb3e9f94a691dcf3e2e1a7988634ca3854314c65418db6c4968cf4"
+  },
+  {
+    "index": 584,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "4d098b6d4af0dba5ae5f02c46da52e32950c0ad059382a084d8196de7284a03c"
+  },
+  {
+    "index": 585,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "e53268a1b76681c8d04c8e9c4bb1adbbf2fe236ade934d923fbcf10521595ed7"
+  },
+  {
+    "index": 586,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "faf221797ef22997a6a877db31e3f12f92ab5ad1b44a51661eaf3d80f91f752b"
+  },
+  {
+    "index": 587,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "65108f3c87fc32751683d118fa14c30cae749857fe90e81f03f2f2e706cd22db"
+  },
+  {
+    "index": 588,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "04768fd6ac8fd59f364761b3cac1302c7091a1434189ad55912f03b66cba0dec"
+  },
+  {
+    "index": 589,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "e53268a1b76681c8d04c8e9c4bb1adbbf2fe236ade934d923fbcf10521595ed7"
+  },
+  {
+    "index": 590,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "26fff9b8adf49e79cccac07cbb8f287a8e5f15aa2cba1fc60e0b350c22609ca7"
+  },
+  {
+    "index": 591,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "65108f3c87fc32751683d118fa14c30cae749857fe90e81f03f2f2e706cd22db"
+  },
+  {
+    "index": 592,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "0f3cdfb58e41e6643c4817212ab51fab8c7527269300c6f94482841e6081a328"
+  },
+  {
+    "index": 593,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "c6d5b058266a47d81343b6e9f346d8deb0c66dc9d6a08c540360571f43e8bfe9"
+  },
+  {
+    "index": 594,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "297ff9c2ef58a90580a2a1ef1870cc89080d42722346322d6e64200e948b7a1c"
+  },
+  {
+    "index": 595,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "dba16b37e32857c0d4bb983f023e64e1f6e5df2e4323c4d9b69f155995285b99"
+  },
+  {
+    "index": 596,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "7bce5a74098fea3b6d0799ac2913fc21b3a62bedd58e1fc20ccab584949d4360"
+  },
+  {
+    "index": 597,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "c6d5b058266a47d81343b6e9f346d8deb0c66dc9d6a08c540360571f43e8bfe9"
+  },
+  {
+    "index": 598,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "1f1d3d5cbbaa1c7a00b74067c4b33ce0d7f266d985d45aef7f1987b7f9c2fc31"
+  },
+  {
+    "index": 599,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "dba16b37e32857c0d4bb983f023e64e1f6e5df2e4323c4d9b69f155995285b99"
+  },
+  {
+    "index": 600,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "93142c06eb32c6d9822609c33597908cf39a163d71d66e6b46c5f3434e2a6768"
+  },
+  {
+    "index": 601,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "140892e934392f2a144dfc549b2927a4cd5c88e3439100ca8bc87ff37207a214"
+  },
+  {
+    "index": 602,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "e228a0b015bbf97ebf7d1a50b48976c41ac69e23ce14597de4110861fd30fbdd"
+  },
+  {
+    "index": 603,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8e7b00864168013cb32a26886e0384c9c179cff25e3a8443b35f2170f5e5734d"
+  },
+  {
+    "index": 604,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "dc1fc537d7a84847b311d00cf5320b0ed3327c5ab0fa3486392e3e280e561a0e"
+  },
+  {
+    "index": 605,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "140892e934392f2a144dfc549b2927a4cd5c88e3439100ca8bc87ff37207a214"
+  },
+  {
+    "index": 606,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "4ce1d00ea2e116310de6a3c94fd34a65404635d47f4ff0df99191b862a186c2c"
+  },
+  {
+    "index": 607,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "8e7b00864168013cb32a26886e0384c9c179cff25e3a8443b35f2170f5e5734d"
+  },
+  {
+    "index": 608,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "fe34032791c68473cf1206cef21ab91f81e7cd97fda69f77cc2f5a8bb20ba15c"
+  },
+  {
+    "index": 609,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "14560f77b6c42dd8bd2be40a0df7a24b6d06d1ac5679483e3f6a0281ad1210a6"
+  },
+  {
+    "index": 610,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "6eb928894930f3cbec3567aeba85b6fec43df23efcc18e6dd22d40d6e074ffae"
+  },
+  {
+    "index": 611,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "797ec2a07f1a3954373f2d24848b7ceca2faac6640a1367614c4f6750451e04a"
+  },
+  {
+    "index": 612,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "4196114a62ddb616b2eb13aef17c9f8561e37846ffa1b2de997bf37a28c146e2"
+  },
+  {
+    "index": 613,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "14560f77b6c42dd8bd2be40a0df7a24b6d06d1ac5679483e3f6a0281ad1210a6"
+  },
+  {
+    "index": 614,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "139e33d654ac161392287b78ba4dc321ca2db6879aa13e67cdbaa87f18855b27"
+  },
+  {
+    "index": 615,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "797ec2a07f1a3954373f2d24848b7ceca2faac6640a1367614c4f6750451e04a"
+  },
+  {
+    "index": 616,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "b6e03a29ffa76f6b890a41dbd7884ca80b4dd4691a1b6013a2da77aa2e0fa197"
+  },
+  {
+    "index": 617,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d4eddd540042d5130038035fb08570432030ea19fb6be0c5a64fd174a06f1158"
+  },
+  {
+    "index": 618,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "09e15da523b74242ad637efa1c75abe3c1375cb239a23645afafd7ba3de3563a"
+  },
+  {
+    "index": 619,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "da9e16aa8b34f623adb77220040057ad04b66131fee700b38dedce2ef3f77204"
+  },
+  {
+    "index": 620,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "deceafec5f0571a6389a12fbf582c0d6c91ec95b6658e8faac94cba2deffd73a"
+  },
+  {
+    "index": 621,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d4eddd540042d5130038035fb08570432030ea19fb6be0c5a64fd174a06f1158"
+  },
+  {
+    "index": 622,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "c77f1809f09974c3e2a8832caba563f8a6c42eb51ba81662bb513d6ef1115ded"
+  },
+  {
+    "index": 623,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "da9e16aa8b34f623adb77220040057ad04b66131fee700b38dedce2ef3f77204"
+  },
+  {
+    "index": 624,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "7f05d9668e45d6fbfdfbbb11cd0de53543afadcc11403beab063a053884756f7"
+  },
+  {
+    "index": 625,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6aed9c50829e74ef462dae7d35a4bcff206c1446bbe6fec1de5dc6cea70dfff1"
+  },
+  {
+    "index": 626,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "a6af0fb2463da46d0509a70732e00d7dcb6f816f2c2e550f122dc4419005f1b6"
+  },
+  {
+    "index": 627,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a70c12e840f73b22b6e37e68a6eed736dba730fed8fe3736126fcdd6eecc8ae2"
+  },
+  {
+    "index": 628,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "727eb3ad8ac7ee069f124251b9df6abda10527133382a4936d1e9b1a9f6df805"
+  },
+  {
+    "index": 629,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6aed9c50829e74ef462dae7d35a4bcff206c1446bbe6fec1de5dc6cea70dfff1"
+  },
+  {
+    "index": 630,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "3ce8c932bb04aab7dd45b953f56926f16174165da65f92a4fbaa2dc39d03d895"
+  },
+  {
+    "index": 631,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a70c12e840f73b22b6e37e68a6eed736dba730fed8fe3736126fcdd6eecc8ae2"
+  },
+  {
+    "index": 632,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "0c1f1429ab7c45d3e50ff87439a4fb8c235a3641ca77cbedb54a0c36fcf2e663"
+  },
+  {
+    "index": 633,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "cda1d95fc2ec38f7eb930e5d0cb990353a9b14b3a7addd74415fdf3af1be0b08"
+  },
+  {
+    "index": 634,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "a2d925517fabfcadda0efe1631882b98e38b4242d529b657b3401e0e93ec39ce"
+  },
+  {
+    "index": 635,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "93d54d3092b09b0b3a5f7fcbc398900bc9a35a90754e6279af813624ac807c07"
+  },
+  {
+    "index": 636,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "c3bb87f3e3501081a6926cfae02656846de00b7535b3205691502d4472752a41"
+  },
+  {
+    "index": 637,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "cda1d95fc2ec38f7eb930e5d0cb990353a9b14b3a7addd74415fdf3af1be0b08"
+  },
+  {
+    "index": 638,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "5e1604c785e2e195589b3cd6a7104a1616e1886dd874caa3b0f8a08661a23881"
+  },
+  {
+    "index": 639,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "93d54d3092b09b0b3a5f7fcbc398900bc9a35a90754e6279af813624ac807c07"
+  },
+  {
+    "index": 640,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "d73cd851ecdad67d9a3b758c96a7df2a200a8b295e443c320cba24622194743e"
+  },
+  {
+    "index": 641,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "410b010331a46a295da15d2acec1de5e3629cfdacb3ae600eeb6a39cfb58ebd5"
+  },
+  {
+    "index": 642,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "d70d1a9c3a25e498998c61fc6d159730d2aeb4c6024f3a7c57bf6a344f33bc66"
+  },
+  {
+    "index": 643,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "7d64ced7fa524eab9ab7064ba30328c96d5da70958b8382ee4b392b27923488d"
+  },
+  {
+    "index": 644,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "412311d8b13ffb7e22888214107d210bec53dba003816631ce5ab3e5a559761a"
+  },
+  {
+    "index": 645,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "410b010331a46a295da15d2acec1de5e3629cfdacb3ae600eeb6a39cfb58ebd5"
+  },
+  {
+    "index": 646,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "62c50f4defbfa90d8bba8400ba42c43f6021164370a2ef27a01a79bd1ec14481"
+  },
+  {
+    "index": 647,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "7d64ced7fa524eab9ab7064ba30328c96d5da70958b8382ee4b392b27923488d"
+  },
+  {
+    "index": 648,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "cb50cccf3546f67ac5281bf7bb09d2276c2639914c3cc1057eb5930ef0661da0"
+  },
+  {
+    "index": 649,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5f73ff5c25547f883a12d3cf0d61c1222efa503bc6b081df67fb6d001af2e35e"
+  },
+  {
+    "index": 650,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "803126f22c51460840233b01fe980b9fb56b58288ab8a256227e0d5135d093c0"
+  },
+  {
+    "index": 651,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "49547bdc537105c26a07744960a8668c377a4dc510a71eb5edc7ce0c7445a473"
+  },
+  {
+    "index": 652,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "19f61afd52e30e59e4e1826bdc21b3aa7b54279e731fb75c3c0eda6b046da078"
+  },
+  {
+    "index": 653,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "5f73ff5c25547f883a12d3cf0d61c1222efa503bc6b081df67fb6d001af2e35e"
+  },
+  {
+    "index": 654,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "5d7482b7225471d9f279a4782d71572781999ed77aff10e30829fb5b5ade906f"
+  },
+  {
+    "index": 655,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "49547bdc537105c26a07744960a8668c377a4dc510a71eb5edc7ce0c7445a473"
+  },
+  {
+    "index": 656,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "2c08a3188e613643d4212c7af8e529403dfea59eecea7277b75c57af2bbf5e37"
+  },
+  {
+    "index": 657,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9304bc56d58781b3d26cb44fbff7e862b5d78d2c7867c2c899148f51f0a11792"
+  },
+  {
+    "index": 658,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "0e7adefdb85f0c65402d94a02fab19e5d6df34e314f65dbe225cd0ce896df62b"
+  },
+  {
+    "index": 659,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c17484d83ddb424d63a25177f21333aaa40bcbfd7f508a18f8f037e1ef81cc74"
+  },
+  {
+    "index": 660,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "d20a9fc71941150c842510332a4f5decfdae41830abe32cfa769d4feccb6c1b0"
+  },
+  {
+    "index": 661,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9304bc56d58781b3d26cb44fbff7e862b5d78d2c7867c2c899148f51f0a11792"
+  },
+  {
+    "index": 662,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "20c32fd8f090ffd43f1515b1476db77749ac2356b61136d97b64c8353a1a141c"
+  },
+  {
+    "index": 663,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "c17484d83ddb424d63a25177f21333aaa40bcbfd7f508a18f8f037e1ef81cc74"
+  },
+  {
+    "index": 664,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "23c33bfbbaa3f5f9c70618157abf595040c8a2da7205ad481ffb242936cc28ec"
+  },
+  {
+    "index": 665,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6e773ac79c66afd429e73cda29b31df63f3cacf651fa066951abc834d3aca827"
+  },
+  {
+    "index": 666,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "2619d85a7d0f052ca1e60cd86f77ac2cbe5a87dc74eb670f5d981664cde11f44"
+  },
+  {
+    "index": 667,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "93b685334bcefe92522107176864b9b2f374441e1cebd92c95196cfea30f1f2a"
+  },
+  {
+    "index": 668,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "e6c167318a1d3bf696ab99d7cff0b7b2f80ec15233382050765fff7e4ca50040"
+  },
+  {
+    "index": 669,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6e773ac79c66afd429e73cda29b31df63f3cacf651fa066951abc834d3aca827"
+  },
+  {
+    "index": 670,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "90fabf8f88d01ed60a1a03167db07ac4b7cd3952a555f1af3961ad7ec7e205c5"
+  },
+  {
+    "index": 671,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "93b685334bcefe92522107176864b9b2f374441e1cebd92c95196cfea30f1f2a"
+  },
+  {
+    "index": 672,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "8d50bd4be3a36b8a1f8fca40e60222ceff17702f2c688e3b018e71ccd45599c1"
+  },
+  {
+    "index": 673,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "dd2c2189c362e12a6a12c5a0c74b8e0b8febbd548799a2fbca539d921c89a32b"
+  },
+  {
+    "index": 674,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "f4b61a699fccfc5819aaf5549189a782ca47f27a48473889f5d0246ec2c02b1b"
+  },
+  {
+    "index": 675,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d7e731446298072d42ebe4c2f8e1c776beb39badbf5db135d513ec0d405e94ee"
+  },
+  {
+    "index": 676,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "8cf6221e07b09f22060b6a732a8fb4c96b59c0ffb3dc7f6a867339b8ebdb66b4"
+  },
+  {
+    "index": 677,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "dd2c2189c362e12a6a12c5a0c74b8e0b8febbd548799a2fbca539d921c89a32b"
+  },
+  {
+    "index": 678,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "77076858971e80001dfa7761e555c6195765d4f5f095c8e828967506b88161d8"
+  },
+  {
+    "index": 679,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d7e731446298072d42ebe4c2f8e1c776beb39badbf5db135d513ec0d405e94ee"
+  },
+  {
+    "index": 680,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "778400984be860223676cca443b1dbc8e9c2e06d8971791345dec5a32d788a87"
+  },
+  {
+    "index": 681,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9c1acd5d96d12e3710908f6f88b27621f3420b0ee788b9a1dc810fe45b10b8e6"
+  },
+  {
+    "index": 682,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "b9be2db112e6b5feaa5929833ed2a1bd8fb31711120e400450ebedee3afbf47e"
+  },
+  {
+    "index": 683,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6a09337b6cb7b75b54d15fc7ece784fadf9f360e0ba56f62987206664c899086"
+  },
+  {
+    "index": 684,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "00afffd77c0801b64628a27190a183e28c9519a7b7def0b2fbc4d75feaeb6245"
+  },
+  {
+    "index": 685,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "9c1acd5d96d12e3710908f6f88b27621f3420b0ee788b9a1dc810fe45b10b8e6"
+  },
+  {
+    "index": 686,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "ecb38f3e1f52e9406ca53b57fd50cc7bfde9455f1f7c78b17ddccf67af5871b8"
+  },
+  {
+    "index": 687,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "6a09337b6cb7b75b54d15fc7ece784fadf9f360e0ba56f62987206664c899086"
+  },
+  {
+    "index": 688,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "91c49b2e6b06dbf4a0667257312db707c40a20b71feb5cfe0c1138e414edd8e2"
+  },
+  {
+    "index": 689,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "275a86673823e4ecbc65d9c3bd9c7ee9e9b28d8bcad444c57f7b30ac056fad31"
+  },
+  {
+    "index": 690,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "5bb66f26d885d7e6362800d2d5b13aed39a0c8118694a4e76c1f16e60de3eaa5"
+  },
+  {
+    "index": 691,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "822694d988e65e9f4e11d1c8215973b599538fc7678c8e643921921a47055d82"
+  },
+  {
+    "index": 692,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "f6303bdf51218ed4ad4af5f10c844e6fd798ac3f0d1a4513108efe029aab0e94"
+  },
+  {
+    "index": 693,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "275a86673823e4ecbc65d9c3bd9c7ee9e9b28d8bcad444c57f7b30ac056fad31"
+  },
+  {
+    "index": 694,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "0b2b7125f050f1cd3ba2eb8f79085f516c71046b83072ebf53a55964af84bd9b"
+  },
+  {
+    "index": 695,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "822694d988e65e9f4e11d1c8215973b599538fc7678c8e643921921a47055d82"
+  },
+  {
+    "index": 696,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "827e1eaf64056c91398c53e8a65b8c47e48f472af2000d43bb0760288c984b9b"
+  },
+  {
+    "index": 697,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "57dcc97e8518c07d41799debce74b97e91097bc150628d5f64ca1895f93ed155"
+  },
+  {
+    "index": 698,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "b1097a38fcac8c6810ba9419131da6cf8c246130335e4d08eb520b51cd3513c0"
+  },
+  {
+    "index": 699,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e4a634f5ff41af80fe10022573a9255413f55f02fcffef382dbcb84996bddde0"
+  },
+  {
+    "index": 700,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "ec29784e40882f025e2c3a064caa5ee770e0da65d639af02327882823f94a53b"
+  },
+  {
+    "index": 701,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "57dcc97e8518c07d41799debce74b97e91097bc150628d5f64ca1895f93ed155"
+  },
+  {
+    "index": 702,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "20a2e3da868f4fc115294523ac8a7615972ec328d81dc8b7891862ef7ef87ab2"
+  },
+  {
+    "index": 703,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e4a634f5ff41af80fe10022573a9255413f55f02fcffef382dbcb84996bddde0"
+  },
+  {
+    "index": 704,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "ed7c4d45f3f352aa7cad03e362ce2de49b8497973bdc0b36650d451b38bbfcdd"
+  },
+  {
+    "index": 705,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "60dfe59ac6b77ab3ee3c4258408a91b0f679ad4abf914b48e6df1e15a3472125"
+  },
+  {
+    "index": 706,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "118cf30dae6946580ea356041800109682d9359763b6eb9a74152ce6c06ed7ab"
+  },
+  {
+    "index": 707,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d5b56a48a573eaff165f1011efcb3c565afe142e09b10c9297f77f7075e6696e"
+  },
+  {
+    "index": 708,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "adace26c3f7fc3cab15dc5ad3331f647fac352e2dab9b5531638c24355d232ed"
+  },
+  {
+    "index": 709,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "60dfe59ac6b77ab3ee3c4258408a91b0f679ad4abf914b48e6df1e15a3472125"
+  },
+  {
+    "index": 710,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "8a8ddb17f05334249814efd4361aefcd154d99630abf0f495bffc6581d895843"
+  },
+  {
+    "index": 711,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "d5b56a48a573eaff165f1011efcb3c565afe142e09b10c9297f77f7075e6696e"
+  },
+  {
+    "index": 712,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "00b68ee7a300936bea36e0e3ba2ff1e2ca78722de7789b5c9695516fca1887c0"
+  },
+  {
+    "index": 713,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4775319061b8eb2a90e3388cf3fa43355d3078d6909ff7af47781f972b72adba"
+  },
+  {
+    "index": 714,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "dec965e74659b37532046c608575174b18b3db1eb869ad6437ea70693197dd2f"
+  },
+  {
+    "index": 715,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f7f25a23c4776069f2e881359e34456020a400e9c4f39d98146fc1a2ce0cc994"
+  },
+  {
+    "index": 716,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "7757bad392ddf14fe69dd1f26e000eb2fc290eaccb3f157a7a1a636e44817bdf"
+  },
+  {
+    "index": 717,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "4775319061b8eb2a90e3388cf3fa43355d3078d6909ff7af47781f972b72adba"
+  },
+  {
+    "index": 718,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "8f2fcf004192d1b4a2a55cb6b046ac46521538c0dd6e414d3c200082d2054f7d"
+  },
+  {
+    "index": 719,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "f7f25a23c4776069f2e881359e34456020a400e9c4f39d98146fc1a2ce0cc994"
+  },
+  {
+    "index": 720,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "5ee4d58763605a7bc18a83e92646008b40fb0f248e3ed47812560b4c532748df"
+  },
+  {
+    "index": 721,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "2e5d13fbff5d2c62ef3daeed3e0320b0c8cd526ae6531e87a5bb2ef0ae2d0eb6"
+  },
+  {
+    "index": 722,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "d6843c769d14772fcd5162d0cad2d29aa4254e5044e5c4d0965d134cfebe9338"
+  },
+  {
+    "index": 723,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a6c349f4f3124ed0882d088a325b0934d86d7ded60086d20faff671bd4b135af"
+  },
+  {
+    "index": 724,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "f947f469336fb448b4571ef07fde938f57f92c4565411512fc69378588603aad"
+  },
+  {
+    "index": 725,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "2e5d13fbff5d2c62ef3daeed3e0320b0c8cd526ae6531e87a5bb2ef0ae2d0eb6"
+  },
+  {
+    "index": 726,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "81c343d0d486ebd9ec14a564d25e6f362a75f0fdc237ffe6539d0aa34b1ca598"
+  },
+  {
+    "index": 727,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "a6c349f4f3124ed0882d088a325b0934d86d7ded60086d20faff671bd4b135af"
+  },
+  {
+    "index": 728,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "65deeebc768addf264e8ec4c9ee6c8764cef4c365b22937d7dc54748c8bf0089"
+  },
+  {
+    "index": 729,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bd53d84694d22bb665304c0bfe4633eaaf3a01bfb30d3cd430bfc392d8395105"
+  },
+  {
+    "index": 730,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "6c6d3c0121284ef451ef2ed3b4b4de3fba429c6632e19597b8748c501a7d8c16"
+  },
+  {
+    "index": 731,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "93e6e76b9f8e95547475292f79d77d00ea7fc774b61f7e8fe6f1f67bcbac6e61"
+  },
+  {
+    "index": 732,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "ac18bf3b2f15c29c37a1845ec8745e586981b2e20a0089223567061718edbb4a"
+  },
+  {
+    "index": 733,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bd53d84694d22bb665304c0bfe4633eaaf3a01bfb30d3cd430bfc392d8395105"
+  },
+  {
+    "index": 734,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "0a34176843cc2482d9e74a714e86c34b769917a56b09369f0d24becfafac7969"
+  },
+  {
+    "index": 735,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "93e6e76b9f8e95547475292f79d77d00ea7fc774b61f7e8fe6f1f67bcbac6e61"
+  },
+  {
+    "index": 736,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "689389b76a183eaed23a62e5ff586d5910a2432320351257495972c4385db48e"
+  },
+  {
+    "index": 737,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6dbafb744dd8ab05322016495aef413e71bd8422df851e0e22935ae144629bba"
+  },
+  {
+    "index": 738,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "7a556dbeca9eab6ce031fbda2a65cf04dda3bff472c9753be608f39b5997f5a9"
+  },
+  {
+    "index": 739,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "30857b85afdcbfb65245891e0e5cb17a730b374473552fbcef2c23f2fa0775aa"
+  },
+  {
+    "index": 740,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "ba25ad1e1c088b65748ae1d947a8cbe664c3394908edfa8b51e053ac9b6e85db"
+  },
+  {
+    "index": 741,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "6dbafb744dd8ab05322016495aef413e71bd8422df851e0e22935ae144629bba"
+  },
+  {
+    "index": 742,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "930d4a8c16091533778394caa61759e84db524612d7f328daa368091d1488513"
+  },
+  {
+    "index": 743,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "30857b85afdcbfb65245891e0e5cb17a730b374473552fbcef2c23f2fa0775aa"
+  },
+  {
+    "index": 744,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "1b3a0555804470a4dedac18d2c72c6cca61847aad22cd65e54cbef36f52a2157"
+  },
+  {
+    "index": 745,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bf8b9271c5c212d8d616681297a7d6e2de3e076263ec8f426f1521ebd130ccb6"
+  },
+  {
+    "index": 746,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "2fd2490b3bb5bb3acdf508b56538d3e41421cbdfffc90810df89ce03da049c1f"
+  },
+  {
+    "index": 747,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "07cbc3416a8e783fc528d66d14d54d72253810438415143a2263af4513b7b7e3"
+  },
+  {
+    "index": 748,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "31a61b5c1a6ffcd55ef546c1f2fe0f33698b25920977ff98937cb854f5324fbc"
+  },
+  {
+    "index": 749,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "bf8b9271c5c212d8d616681297a7d6e2de3e076263ec8f426f1521ebd130ccb6"
+  },
+  {
+    "index": 750,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "a451b31866434461ddb19f76c808aa4852cba9b45e7f5b40fb54f235f5543acc"
+  },
+  {
+    "index": 751,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "07cbc3416a8e783fc528d66d14d54d72253810438415143a2263af4513b7b7e3"
+  },
+  {
+    "index": 752,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "ea781657fb4057bb9776a52159caa665667c2a0df4f6db57e6ce58e76502cbc4"
+  },
+  {
+    "index": 753,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0513ee1007eb2b93e5a307be404be8f69b578868d99046d465563ec0726b831a"
+  },
+  {
+    "index": 754,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "029efbf3fae875ed72544680e5b4b7e1372f053791a7b0ea882be01f777cee66"
+  },
+  {
+    "index": 755,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "b254b77d63e95cb577f85a29ccdf4b180f938216a41d28bf93add1989a74faf8"
+  },
+  {
+    "index": 756,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "cc7870f74d9d24a81f09063cbea0427e8b0b91c8ba1d6634192fb82125b6ab00"
+  },
+  {
+    "index": 757,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "0513ee1007eb2b93e5a307be404be8f69b578868d99046d465563ec0726b831a"
+  },
+  {
+    "index": 758,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "1e69766c9de2a06538ae2ac326a26190ae2fb15a544642567b7c3ab648eb1131"
+  },
+  {
+    "index": 759,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "b254b77d63e95cb577f85a29ccdf4b180f938216a41d28bf93add1989a74faf8"
+  },
+  {
+    "index": 760,
+    "observed_clue": 0,
+    "top_clue": 0,
+    "visible_sha256": "a1cffa145f2077edda0883fc499e4fd415d93a2fdb4997fb22f246dac0576d7a"
+  },
+  {
+    "index": 761,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d32ecd115f5acadfbf801a0a548f50ce832bc7dfcfbae74d950c0cc1bef67cc4"
+  },
+  {
+    "index": 762,
+    "observed_clue": 0,
+    "top_clue": 1,
+    "visible_sha256": "f0d777357aac9cbb07cfb0e9264ab2be1369d76297c24927fe4f306cf15d508d"
+  },
+  {
+    "index": 763,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e104dc0a6cdb9655208c293c98fcbb240db3e65c3eb9b6a0683c31070b76a408"
+  },
+  {
+    "index": 764,
+    "observed_clue": 1,
+    "top_clue": 0,
+    "visible_sha256": "925c2b7160c5ef497fb94543cd88688f0f1368dd13ac79a012b212e280cc9205"
+  },
+  {
+    "index": 765,
+    "observed_clue": 2,
+    "top_clue": 0,
+    "visible_sha256": "d32ecd115f5acadfbf801a0a548f50ce832bc7dfcfbae74d950c0cc1bef67cc4"
+  },
+  {
+    "index": 766,
+    "observed_clue": 1,
+    "top_clue": 1,
+    "visible_sha256": "085235bcaec0bdd487effe79f515f09c4d0da12fdfbcbb811b67a2b8ce741f90"
+  },
+  {
+    "index": 767,
+    "observed_clue": 2,
+    "top_clue": 1,
+    "visible_sha256": "e104dc0a6cdb9655208c293c98fcbb240db3e65c3eb9b6a0683c31070b76a408"
+  }
+]

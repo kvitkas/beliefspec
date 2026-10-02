@@ -1,0 +1,83 @@
+{
+  "frozen_files_verified": 50,
+  "episode_rows": 7680,
+  "paired_method_seed_groups": 10,
+  "hidden_swap_output_checks": 1920,
+  "simulator_replays": 768,
+  "intervention_rows": 30720,
+  "independently_computed_scores": {
+    "current:": {
+      "observed": 0.5,
+      "never": 0.5
+    },
+    "recent:": {
+      "observed": 0.8333333333333334,
+      "never": 0.5
+    },
+    "structured:": {
+      "observed": 1.0,
+      "never": 0.5
+    },
+    "episodic:": {
+      "observed": 1.0,
+      "never": 0.5
+    },
+    "control:11": {
+      "observed": 1.0,
+      "never": 0.5
+    },
+    "predictive:11": {
+      "observed": 0.5,
+      "never": 0.5
+    },
+    "control:22": {
+      "observed": 1.0,
+      "never": 0.5
+    },
+    "predictive:22": {
+      "observed": 1.0,
+      "never": 0.5
+    },
+    "control:33": {
+      "observed": 1.0,
+      "never": 0.5
+    },
+    "predictive:33": {
+      "observed": 1.0,
+      "never": 0.5
+    }
+  },
+  "independent_primary_seed_differences": [
+    -0.5,
+    0.0,
+    0.0
+  ],
+  "fresh_environment_reproduction": {
+    "data_regeneration": {
+      "train": {
+        "episodes": 1536,
+        "ordered_visible_hashes_match": true
+      },
+      "validation": {
+        "episodes": 384,
+        "ordered_visible_hashes_match": true
+      },
+      "test": {
+        "episodes": 768,
+        "ordered_visible_hashes_match": true
+      }
+    },
+    "runs": [
+      {
+        "seed": 11,
+        "variant": "control",
+        "exact_checkpoint_tensors": true,
+        "max_probability_or_prediction_ce_difference": 0.0,
+        "all_episode_successes_identical": true,
+        "observed_success": 1.0,
+        "never_success": 0.5
+      }
+    ]
+  },
+  "passed": true
+}

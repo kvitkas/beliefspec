@@ -1,0 +1,56 @@
+{
+  "splits": {
+    "train": {
+      "episodes": 1536,
+      "unique_visible": 1152,
+      "delays": [
+        17,
+        29,
+        53
+      ],
+      "factorial_cell_counts": [
+        64
+      ],
+      "structured_observed_success": 1.0,
+      "structured_never_success": 0.5,
+      "duplicate_explanation": "Never-observed hidden-clue twins intentionally have identical histories"
+    },
+    "validation": {
+      "episodes": 384,
+      "unique_visible": 288,
+      "delays": [
+        17,
+        29,
+        53
+      ],
+      "factorial_cell_counts": [
+        16
+      ],
+      "structured_observed_success": 1.0,
+      "structured_never_success": 0.5,
+      "duplicate_explanation": "Never-observed hidden-clue twins intentionally have identical histories"
+    },
+    "test": {
+      "episodes": 768,
+      "unique_visible": 576,
+      "delays": [
+        17,
+        29,
+        53
+      ],
+      "factorial_cell_counts": [
+        32
+      ],
+      "structured_observed_success": 1.0,
+      "structured_never_success": 0.5,
+      "duplicate_explanation": "Never-observed hidden-clue twins intentionally have identical histories"
+    }
+  },
+  "overlap": {
+    "train:validation": 0,
+    "train:test": 0,
+    "validation:test": 0
+  },
+  "fixed_geometry": true,
+  "layout_generalization_claim": false
+}

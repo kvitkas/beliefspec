@@ -1,0 +1,74 @@
+[
+  {
+    "variant": "control",
+    "training_seed": 11,
+    "first_validation_readout_99_epoch": 7,
+    "selected_epoch": 30,
+    "seconds": 14.83359716704581,
+    "parameters": {
+      "allocated": 56171,
+      "shared": 34611,
+      "prediction_head": 21560
+    }
+  },
+  {
+    "variant": "control",
+    "training_seed": 22,
+    "first_validation_readout_99_epoch": 7,
+    "selected_epoch": 30,
+    "seconds": 15.377501291921362,
+    "parameters": {
+      "allocated": 56171,
+      "shared": 34611,
+      "prediction_head": 21560
+    }
+  },
+  {
+    "variant": "control",
+    "training_seed": 33,
+    "first_validation_readout_99_epoch": 7,
+    "selected_epoch": 30,
+    "seconds": 15.211033083032817,
+    "parameters": {
+      "allocated": 56171,
+      "shared": 34611,
+      "prediction_head": 21560
+    }
+  },
+  {
+    "variant": "predictive",
+    "training_seed": 11,
+    "first_validation_readout_99_epoch": null,
+    "selected_epoch": 10,
+    "seconds": 20.897719917003997,
+    "parameters": {
+      "allocated": 56171,
+      "shared": 34611,
+      "prediction_head": 21560
+    }
+  },
+  {
+    "variant": "predictive",
+    "training_seed": 22,
+    "first_validation_readout_99_epoch": 13,
+    "selected_epoch": 30,
+    "seconds": 21.05176191602368,
+    "parameters": {
+      "allocated": 56171,
+      "shared": 34611,
+      "prediction_head": 21560
+    }
+  },
+  {
+    "variant": "predictive",
+    "training_seed": 33,
+    "first_validation_readout_99_epoch": 15,
+    "selected_epoch": 30,
+    "seconds": 21.27980750007555,
+    "parameters": {
+      "allocated": 56171,
+      "shared": 34611,
+      "prediction_head": 21560
+    }
+  }
+]

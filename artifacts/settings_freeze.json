@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-01T19:31:49.152536+00:00",
+  "config_sha256": "f9f422ba70a12ca04ab504c4b6ee595dfb84339a607bae064b959c4645a140a8",
+  "main_seeds": [
+    11,
+    22,
+    33
+  ],
+  "heldout_model_outcomes_inspected": false,
+  "note": "Main settings fixed after seed101 development and before main training"
+}

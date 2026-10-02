@@ -1,0 +1,15 @@
+{"variant": "control", "seed": 11, "epoch": 1, "train_task_ce": 1.051301101843516, "train_prediction_ce": 2.407228857278824, "validation_task_ce": 1.0449472268422444, "validation_prediction_ce": 2.4136105378468833, "validation_readout_accuracy": 0.5, "elapsed_seconds": 0.554978416999802}
+{"variant": "control", "seed": 11, "epoch": 10, "train_task_ce": 0.017323701914089423, "train_prediction_ce": 2.4926446974277496, "validation_task_ce": 0.008978909657647213, "validation_prediction_ce": 2.4899603923161826, "validation_readout_accuracy": 1.0, "elapsed_seconds": 5.252174667082727}
+{"variant": "control", "seed": 11, "epoch": 20, "train_task_ce": 0.0012370599288260564, "train_prediction_ce": 2.4934092660744986, "validation_task_ce": 0.0011719355631309252, "validation_prediction_ce": 2.491840958595276, "validation_readout_accuracy": 1.0, "elapsed_seconds": 10.5141425000038}
+{"variant": "control", "seed": 11, "epoch": 30, "train_task_ce": 0.0005623032981626844, "train_prediction_ce": 2.493235925833384, "validation_task_ce": 0.0005442435406924536, "validation_prediction_ce": 2.491572300593058, "validation_readout_accuracy": 1.0, "elapsed_seconds": 15.779304834082723}
+[
+  {
+    "seed": 11,
+    "variant": "control",
+    "exact_checkpoint_tensors": true,
+    "max_probability_or_prediction_ce_difference": 0.0,
+    "all_episode_successes_identical": true,
+    "observed_success": 1.0,
+    "never_success": 0.5
+  }
+]

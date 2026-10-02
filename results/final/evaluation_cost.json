@@ -1,0 +1,68 @@
+[
+  {
+    "method": "current",
+    "seconds": 0.017249332973733544,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "recent",
+    "seconds": 0.022734583006240427,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "structured",
+    "seconds": 0.023478624993003905,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "episodic",
+    "seconds": 0.0246917080366984,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "control",
+    "training_seed": 11,
+    "seconds": 0.18006041704211384,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "predictive",
+    "training_seed": 11,
+    "seconds": 0.1593299580272287,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "control",
+    "training_seed": 22,
+    "seconds": 0.16182499995920807,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "predictive",
+    "training_seed": 22,
+    "seconds": 0.15459695796016604,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "control",
+    "training_seed": 33,
+    "seconds": 0.15865200001280755,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  },
+  {
+    "method": "predictive",
+    "training_seed": 33,
+    "seconds": 0.15301658294629306,
+    "episodes": 768,
+    "includes_simulator_replay": false
+  }
+]

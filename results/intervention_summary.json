@@ -1,0 +1,642 @@
+[
+  {
+    "method": "current",
+    "seed": "",
+    "never": false,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "current",
+    "seed": "",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "current",
+    "seed": "",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "current",
+    "seed": "",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "current",
+    "seed": "",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "current",
+    "seed": "",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "current",
+    "seed": "",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "current",
+    "seed": "",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": false,
+    "intervention": "original",
+    "success": 0.8333333333333334,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.16666666666666666,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 0.8333333333333334,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "recent",
+    "seed": "",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": false,
+    "intervention": "original",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.0,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "structured",
+    "seed": "",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": false,
+    "intervention": "original",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.0,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "episodic",
+    "seed": "",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": false,
+    "intervention": "original",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "11",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": false,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "11",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": false,
+    "intervention": "original",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "22",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": false,
+    "intervention": "original",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.0,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "22",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": false,
+    "intervention": "original",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "control",
+    "seed": "33",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": false,
+    "intervention": "original",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": false,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": false,
+    "intervention": "swap",
+    "success": 0.0,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": false,
+    "intervention": "irrelevant",
+    "success": 1.0,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": true,
+    "intervention": "original",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": true,
+    "intervention": "remove",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": true,
+    "intervention": "swap",
+    "success": 0.5,
+    "episodes": 384
+  },
+  {
+    "method": "predictive",
+    "seed": "33",
+    "never": true,
+    "intervention": "irrelevant",
+    "success": 0.5,
+    "episodes": 384
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "encoder_size": 48,
+  "hidden_size": 32,
+  "batch_size": 64,
+  "learning_rate": 0.003,
+  "gradient_clip": 1.0,
+  "prediction_weight": 0.1,
+  "epochs": 30,
+  "threads": 2,
+  "recent_window": 32,
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "waits": [
+    8,
+    20,
+    44
+  ],
+  "measured_observed_delays": [
+    17,
+    29,
+    53
+  ],
+  "routes_per_delay": {
+    "train": 64,
+    "validation": 16,
+    "test": 32
+  },
+  "data_seeds": {
+    "train": 1729,
+    "validation": 2718,
+    "test": 3141
+  },
+  "data_seed_note": "API seed arguments are compatibility placeholders; actual route generator seed is 10000+wait, partition offsets train0/validation512/test1024, simulator reset seed0 with explicitly crossed objects",
+  "selection": "minimum validation task CE, earliest tie",
+  "device": "cpu",
+  "seed": 33,
+  "variant": "control"
+}

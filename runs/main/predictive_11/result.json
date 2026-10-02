@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "variant": "predictive",
+  "seed": 11,
+  "epochs": 30,
+  "updates": 720,
+  "best_epoch": 10,
+  "best_validation_task_ce": 1.039724886417389,
+  "seconds": 20.897719917003997,
+  "parameters": {
+    "allocated": 56171,
+    "shared": 34611,
+    "prediction_head": 21560
+  },
+  "active_parameters": 56171,
+  "device": "cpu",
+  "checkpoint_sha256": "3f0f1eb4b0bc01f0941af775bb38ef57e4874557b35466f43b3959b06c3b4a48"
+}

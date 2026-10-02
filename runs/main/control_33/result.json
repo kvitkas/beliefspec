@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "variant": "control",
+  "seed": 33,
+  "epochs": 30,
+  "updates": 720,
+  "best_epoch": 30,
+  "best_validation_task_ce": 0.0004101245237203936,
+  "seconds": 15.211033083032817,
+  "parameters": {
+    "allocated": 56171,
+    "shared": 34611,
+    "prediction_head": 21560
+  },
+  "active_parameters": 34611,
+  "device": "cpu",
+  "checkpoint_sha256": "9eeace0f6c35633ab9a91b15f534303ca01a7a42700d93b7c71e69b4b3de46eb"
+}
