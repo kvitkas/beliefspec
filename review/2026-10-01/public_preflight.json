@@ -1,0 +1,7 @@
+{
+  "scope": "current Git index; heuristic privacy scan, frozen-byte and raw-CSV checks",
+  "tracked_files": 158,
+  "frozen_files": 50,
+  "findings": [],
+  "passed": true
+}

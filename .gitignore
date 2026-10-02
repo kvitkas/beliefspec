@@ -5,4 +5,25 @@ __pycache__/
 *.egg-info/
 vendor/
 .DS_Store
-
+.tools/
+.review-runs/
+.env
+.env.*
+*.pem
+*.key
+*.zip
+# Local outreach materials and original logs containing personal machine paths.
+docs/outreach_email.md
+docs/application_procedure.md
+docs/agentspec_smoke.md
+artifacts/agentspec/setup.log
+artifacts/agentspec/minigrid_quickstart_unset_keys_status.log
+artifacts/package_manifest.json
+artifacts/report_preview/
+# Compiler scratch files; the working manuscript PDF is intentionally tracked.
+manuscript/*.aux
+manuscript/*.log
+manuscript/*.out
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.synctex.gz

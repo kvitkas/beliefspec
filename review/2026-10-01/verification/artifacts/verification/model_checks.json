@@ -1,0 +1,27 @@
+{
+  "tiny_subset_fit": [
+    {
+      "variant": "control",
+      "seed": 777,
+      "updates": 40,
+      "fit_accuracy": 1.0,
+      "task_ce": 0.4646781384944916,
+      "prediction_ce": 2.460402250289917,
+      "seconds": 0.15059862495400012
+    },
+    {
+      "variant": "predictive",
+      "seed": 777,
+      "updates": 120,
+      "fit_accuracy": 1.0,
+      "task_ce": 0.46213093400001526,
+      "prediction_ce": 0.11715361475944519,
+      "seconds": 0.4727830409538001
+    }
+  ],
+  "criterion": "fit_accuracy >= 0.98 within 500 updates on labels key, ball, unknown",
+  "criterion_met": {
+    "control": true,
+    "predictive": true
+  }
+}

@@ -1,0 +1,28 @@
+note: Running TeX ...
+note: downloading lmroman12-regular.otf
+note: downloading cmsy6.tfm
+note: downloading lmroman12-bold.otf
+note: downloading lmroman10-bold.otf
+warning: main.tex:21: Overfull \hbox (1.62695pt too wide) in paragraph at lines 20--21
+warning: main.tex:126: Overfull \hbox (81.45161pt too wide) in paragraph at lines 125--126
+note: Running BibTeX on main.aux ...
+note: Rerunning TeX because bibtex was run ...
+warning: main.tex:21: Overfull \hbox (1.62695pt too wide) in paragraph at lines 20--21
+warning: main.tex:126: Overfull \hbox (81.45161pt too wide) in paragraph at lines 125--126
+note: Rerunning TeX because "main.aux" changed ...
+warning: main.tex:21: Overfull \hbox (1.62695pt too wide) in paragraph at lines 20--21
+warning: main.tex:126: Overfull \hbox (81.45161pt too wide) in paragraph at lines 125--126
+warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
+note: Running xdvipdfmx ...
+note: downloading ckx.map
+note: downloading texglyphlist.txt
+note: downloading pdfglyphlist.txt
+note: downloading glyphlist.txt
+note: downloading cmmi10.pfb
+note: downloading cmr8.pfb
+note: downloading cmr10.pfb
+note: downloading cmsy10.pfb
+note: Writing `main.blg` (194 B)
+note: Writing `main.pdf` (128.609375 KiB)
+note: Writing `main.log` (10.84375 KiB)
+note: Skipped writing 3 intermediate files (use --keep-intermediates to keep them)

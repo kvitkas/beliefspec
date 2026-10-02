@@ -1,103 +1,106 @@
-# BeliefSpec: a small predictive-memory pilot
+# BeliefSpec: a controlled predictive-memory pilot
 
-Executed locally on 2026-10-01. A standalone, controlled adaptation of MiniGrid Memory tests whether action-conditioned next-view prediction improves a matched GRU's decision-relevant memory. Models choose only the final top/bottom branch; movement is scripted. This is supervised learning, not autonomous navigation, RL, or an LLM experiment.
+**When does predictive supervision make recurrent memory more useful for later decisions?**
 
-Start with [the pilot report](docs/pilot_report.md), [the PDF](docs/pilot_report.pdf), and [the beginner walkthrough](docs/beginner_walkthrough.md). Results, including unfavorable seeds, are in `results/summary.json` and `results/final/episodes.csv`.
+This exploratory pilot compares matched GRUs on scripted, partially observed MiniGrid
+trajectories. The model controls the final choice, not navigation. Training is supervised;
+this is not reinforcement learning, an LLM-agent evaluation, or an AgentSpec reproduction.
 
-## Setup (Python 3.12)
+[Working manuscript (PDF)](manuscript/main.pdf) · [LaTeX source](manuscript/main.tex) ·
+[How to defend the work](docs/defending_the_work.md) ·
+[Independent verification](review/2026-10-01/verification/report.md)
 
-Run from this project directory. `uv` was already installed on the execution machine.
+![Actual saved partial observations: early clue, hallway, final choices](review/2026-10-01/figures/task_illustration.png)
+
+The clue is last visible at step 1; this saved episode's final decision is at step 18.
+The delay is 17 simulator steps. `K` means key and `B` ball. These are actual agent-visible
+categorical observations, not a full-map debugging render.
+
+## Main result
+
+| Training seed | Task-only GRU | GRU + next-view prediction |
+| --- | ---: | ---: |
+| 11 | 100% | 50% |
+| 22 | 100% | 100% |
+| 33 | 100% | 100% |
+
+Observed-clue success, averaged equally over delays 17, 29, and 53; each seed has
+384 observed-clue test episodes. All methods scored 50% on 384 never-observed episodes.
+All six main runs are retained, including predictive seed 11.
+
+The paired mean difference is −16.67 percentage points; the descriptive 95% seed-level
+t interval is [−88.38, +55.04] points (three replications, df=2). It is unstable and
+conditional on these routes—not thousands of independent training replications.
+
+The control is at ceiling. A **post-hoc** saved-observation audit found 0 differences
+in 6,336 post-clue next-view targets between matched opposite-clue episodes. Predicting
+these targets does not require delayed clue retention. That property does not establish
+why one predictive run failed. Better prediction than an **untrained** head is a training
+check, not an independent breakthrough. Fixed geometry, short budgets, and three seeds
+limit interpretation. Predictive memory itself is not new.
+
+## Reproduce without overwriting the evidence
+
+Run from the repository root. Python 3.12 and [uv](https://docs.astral.sh/uv/) are required
+for these setup commands. The original and review runs used a local Apple Silicon Mac,
+macOS 15.7.7, 16 GiB RAM, CPU only, two Torch threads. Other platforms are not verified.
+No GPU, API key, paid compute, or external dataset is needed.
 
 ```bash
 uv venv --python 3.12 .venv
 uv pip sync --python .venv/bin/python requirements.lock.txt
 uv pip install --python .venv/bin/python --no-deps -e .
-.venv/bin/python -m pytest -q
+
+# Run tests in a scratch CWD: one original test writes a diagnostic there.
+PROJECT_ROOT="$PWD"
+mkdir -p .review-runs/tests
+(cd .review-runs/tests && "$PROJECT_ROOT/.venv/bin/python" -m pytest "$PROJECT_ROOT/tests" -q)
 .venv/bin/python -m ruff check src tests
+
+# Independent record/configuration/checkpoint audit; writes only a new review file.
+.venv/bin/python review/2026-10-01/verification/audit_review.py \
+  --root . --stage after --output .review-runs/audit.json
+
+# Regenerate figures from saved episode records and learning histories.
+.venv/bin/python review/2026-10-01/make_figures.py --output .review-runs/figures
+
+# Regenerate all datasets and retrain control seed 11; compare with original evidence.
+.venv/bin/python -m beliefspec.reproduce --output .review-runs/reproduction
+# Optional: add --all to reproduce all six original runs, not new experiments.
 ```
 
-The lock records exact versions, including Torch 2.14.1, MiniGrid 3.1.0, NumPy 2.5.3 and Gymnasium 1.3.0. No GPU, API key, downloaded dataset or paid service is required. The original machine was macOS 15.7.7, Apple Silicon, 16 GiB RAM; CPU training used two Torch threads. Other operating systems/hardware were not verified.
+Figure and training output directories must be unused; choose new names on a repeat run.
+Exact tensors reproduced on the recorded stack; bitwise equality across platforms is not
+promised. Do not run the old `analyze_results`, `verify_package`, or private `package`
+entry points for public packaging: they write original artifacts or include private files.
 
-## Reproduce from the saved package
+To compile the editable manuscript, install [Tectonic](https://tectonic-typesetting.github.io/book/latest/installation/)
+(review build: 0.17.0), then run `cd manuscript && tectonic main.tex`. See
+[build details](manuscript/README.md). Tectonic may download TeX support files.
 
-```bash
-# Regenerate all plots/tables and real-episode traces from saved records:
-.venv/bin/python -m beliefspec.analyze_results
+## Inspect the evidence
 
-# Replay the three illustrated model choices to actual simulator termination:
-.venv/bin/python -m beliefspec.replay_traces
+- [Protocol](docs/protocol.md), [task contract](docs/task_contract.md), and
+  [original decisions](docs/decision_log.md); [review decisions](review/2026-10-01/DECISIONS.md).
+- `src/beliefspec/`, `tests/`, `configs/frozen.json`, and `requirements.lock.txt`.
+- `data/`: separate visible arrays and evaluator-only records; no cross-split visible-history overlap.
+- `runs/main/`: all six checkpoints, configurations, training curves, and selection records.
+  `runs/development/` retains both development runs.
+- [Raw episode outcomes](results/final/episodes.csv), [original summary](results/summary.json),
+  and [new verification records](review/2026-10-01/verification/).
+- [Related work](docs/related_work.md), [fresh primary-source checks](review/2026-10-01/sources.md),
+  and [limited AgentSpec smoke](review/2026-10-01/agentspec_public_note.md).
+- [Three proposed follow-ups](docs/followup_plan.md): target relevance, information gathering,
+  and stale-clue adaptation. **None was executed.** Each needs a fresh protocol and test set.
 
-# Reproduce the separately labeled post-hoc target-dependence audit:
-.venv/bin/python -m beliefspec.target_diagnostic
+The 50-file experiment freeze remains intact. New review tests passed (22/22); a fresh
+control-seed-11 run exactly reproduced checkpoint tensors and all 768 test decisions.
+Older reports are preserved as dated historical artifacts, including their then-current
+publication status. The initial Git commit is a truthful import, not reconstructed history.
 
-# Retrain control seed 11, regenerate all datasets, and compare exact decisions:
-.venv/bin/python -m beliefspec.reproduce --output runs/my_reproduction
-
-# Optional: retrain every original seed and variant without overwriting originals:
-.venv/bin/python -m beliefspec.reproduce --all --output runs/my_full_reproduction
-
-# Rebuild the editable report's PDF:
-.venv/bin/python -m beliefspec.render_report
-
-# Audit frozen files, paired scoring, hidden swaps and saved reproduction:
-.venv/bin/python -m beliefspec.verify_package
-```
-
-Reproduction outputs must use an unused directory. Existing checkpoints and datasets are protected from accidental replacement. Determinism is checked on the recorded Mac/Python/Torch stack; exact floating-point equivalence is not promised across hardware or package versions.
-
-The same setup was executed in a fresh `.venv-repro` environment, followed by a representative training reproduction. Evidence is in `runs/reproduction/verification.json` and `artifacts/reproduction.log`.
-
-## Run the original pipeline from a source-only copy
-
-These commands require a copy without `data/`, `runs/`, `results/`, or `artifacts/freeze.json`. Keep the supplied completed package intact; use the reproduction commands above for ordinary verification.
-
-```bash
-.venv/bin/python -m beliefspec.experiment environment
-.venv/bin/python -m beliefspec.experiment generate --split train
-.venv/bin/python -m beliefspec.experiment generate --split validation
-.venv/bin/python -m beliefspec.audit --splits train validation
-.venv/bin/python -m beliefspec.run_main
-.venv/bin/python -m beliefspec.experiment generate --split test
-.venv/bin/python -m beliefspec.audit
-.venv/bin/python -m beliefspec.freeze
-.venv/bin/python -m beliefspec.experiment evaluate
-.venv/bin/python -m beliefspec.analyze_results
-```
-
-`configs/frozen.json` specifies the six runs, 30 epochs/720 updates each, three measured delays, 1,536 train / 384 validation / 768 test episodes. The compatibility `data_seeds` values do not select routes: actual routes use RNG seed `10000 + wait`, fixed disjoint split offsets, simulator seed 0 and fully crossed object assignments. Never-observed hidden-clue twins intentionally have identical visible histories with opposite hidden answers. No exact visible history crosses train/validation/test, but all splits share one geometry: **no layout-generalization claim**.
-
-## Files and evidence
-
-| Location | Purpose |
-| --- | --- |
-| `docs/protocol.md`, `configs/frozen.json` | Internal protocol and frozen main settings |
-| `docs/decision_log.md` | Development choices, fixes, scope and interpretations |
-| `docs/task_contract.md` | Scripted controller, masking and information access |
-| `src/beliefspec/task.py` | Real MiniGrid collection and terminal-choice replay |
-| `src/beliefspec/model.py` | Six baselines, GRU, categorical prediction loss and decision interface |
-| `src/beliefspec/experiment.py` | Training, checkpoint selection, inference, interventions |
-| `src/beliefspec/dataio.py` | Visible arrays separated from evaluator-only truth |
-| `src/beliefspec/audit.py`, `tests/` | Data and implementation validity checks |
-| `data/*/visible.npz`, `visible_index.json` | Permitted histories and observed-history labels |
-| `data/*/evaluator_only.json` | Hidden truth used only for task generation/evaluation |
-| `runs/main/*` | All six checkpoints, configs, losses, durations and selected epochs |
-| `runs/development/*` | Both seed-101 development runs; not final evidence |
-| `results/final/episodes.csv` | Every evaluated method/seed/episode |
-| `results/final/interventions.csv` | Decoded-memory controller interventions |
-| `results/final/simulator_replay.json` | Real final-action simulator checks |
-| `results/figures/`, `results/traces/` | Generated figures and actual saved episode traces |
-| `artifacts/freeze.json` | Pre-evaluation SHA-256 hashes of sources/data/checkpoints |
-| `artifacts/environment.json`, `main_execution.json` | Hardware, actual compute and all run statuses |
-| `docs/related_work.md`, `artifacts/sources/` | Verified primary-source notes |
-| `docs/agentspec_smoke.md`, `artifacts/agentspec/` | Successful offline checks and credential-blocked quickstart |
-| `docs/project_summary.md` | One-page project summary |
-| `docs/application_procedure.md`, `docs/outreach_email.md` | Official procedure, reusable paragraphs and unsent email |
-| `docs/preprint_readiness.md` | Candid readiness decision and manuscript outline |
-
-## Interpretation boundaries
-
-Task loss is cross-entropy over the clue classes key/ball/unknown, derived from permitted history. Auxiliary loss is 0.1 times categorical next-view cross-entropy. Both arms have the same 34,611 shared parameters plus a 21,560-parameter prediction head; only the predictive arm trains that head. Handwritten structured/retrieval baselines have privileged *design knowledge*, not privileged observations. The public controller phase is also a hand-designed cue shared by all methods.
-
-Prediction accuracy mostly measures local visible geometry; it need not imply useful clue memory. Three training seeds give limited uncertainty information. The descriptive t interval uses paired seed differences, not thousands of episode rows as independent training runs. Interventions change decoded clue probabilities at a deterministic controller, not internal neural dimensions or an LLM's reasoning.
-
-AgentSpec's offline contract tests passed; its documented API quickstart required credentials and did not complete. This project is not integrated with AgentSpec and does not reproduce its paper. No email/form/repository/preprint was sent, submitted, published or uploaded.
+This is ready for exploratory research discussion, not a public preprint contribution.
+The manuscript is a working draft, not peer-reviewed. Substantial AI-assisted engineering,
+execution, and drafting are disclosed in [attribution and provenance](THIRD_PARTY.md).
+Author identity and personal contribution must be supplied honestly. No project-wide reuse
+license has been selected. Private application drafts and personal-path logs remain local;
+no email, application, or preprint has been submitted by this packaging task.
