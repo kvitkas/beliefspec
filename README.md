@@ -82,22 +82,3 @@ original; see [evidence preservation](docs/evidence_preservation.md).
 To compile the editable manuscript, install [Tectonic](https://tectonic-typesetting.github.io/book/latest/installation/)
 (review build: 0.17.0), then run `cd manuscript && tectonic main.tex`. See
 [build details](manuscript/README.md). Tectonic may download TeX support files.
-
-## Inspect the evidence
-
-- [Protocol](docs/protocol.md), [task contract](docs/task_contract.md), and
-  [scientific decisions](docs/decision_log.md).
-- `src/beliefspec/`, `tests/`, `configs/frozen.json`, and `requirements.lock.txt`.
-- `data/`: separate visible arrays and evaluator-only records; no cross-split visible-history overlap.
-- `runs/main/`: all six checkpoints, configurations, training curves, and selection records.
-  `runs/development/` retains both development runs.
-- [Raw episode outcomes](results/final/episodes.csv), [original summary](results/summary.json),
-  and [verification records](review/2026-10-02/).
-- [Related work](docs/related_work.md), [fresh primary-source checks](review/2026-10-01/sources.md),
-  and [limited AgentSpec smoke](review/2026-10-01/agentspec_public_note.md).
-- [Three proposed follow-ups](docs/followup_plan.md): target relevance, information gathering,
-  and stale-clue adaptation. **None was executed.** Each needs a fresh protocol and test set.
-
-The original freeze manifest is unchanged: 49 files remain byte-identical in the current
-tree; the original protocol is verified from the preserved Git revision. The current
-protocol is a labeled publication copy. All data, raw results and checkpoints are unchanged.
