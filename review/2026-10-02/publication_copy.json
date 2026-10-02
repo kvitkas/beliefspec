@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "freeze_path": "artifacts/freeze.json",
+  "freeze_sha256": "32f29ded1b7cd547509addd000fbf6375d9d86f660e3a74c56e9a48076a7b98b",
+  "frozen_manifest_file_count": 50,
+  "publication_copies": [
+    {
+      "path": "docs/protocol.md",
+      "frozen_sha256": "8e41a14956bbfd7a4789e3da88db5da7b2b1ba2e2bc557de3fb11758e1bf4bb6",
+      "historical_revision": "0b0298ee75accc2306caeca205c5225ce5a2ceae",
+      "publication_sha256": "a674b33339fcf8bd85fd99ce3f3a3259a552bf29882f1cc65cd63e9f35e2c2d6",
+      "rationale": "The frozen protocol contained non-scientific completion logistics. The public tree keeps a cleaned publication copy while verifying the exact frozen protocol bytes from Git history."
+    }
+  ]
+}

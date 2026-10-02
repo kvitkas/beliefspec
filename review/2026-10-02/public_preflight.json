@@ -1,0 +1,22 @@
+{
+  "scope": "current Git index; heuristic credential/path scan, provenance, and raw-CSV checks",
+  "tracked_files": 167,
+  "frozen_files": 50,
+  "publication_provenance": {
+    "root": ".",
+    "source": "index",
+    "file_count": 50,
+    "mismatch_count": 0,
+    "mismatches": [],
+    "live_frozen_verified_count": 49,
+    "historical_frozen_verified_count": 1,
+    "publication_copy_verified_count": 1,
+    "passed": true,
+    "failures": [],
+    "model_outcomes_on_test_inspected": false,
+    "primary": "paired seed difference on observed clues, equal delay weight",
+    "episodes": 768
+  },
+  "findings": [],
+  "passed": true
+}

@@ -1,0 +1,75 @@
+{
+  "text_files_scanned": 139,
+  "standalone_presentation_findings": [],
+  "broken_markdown_links": [],
+  "protected_evidence_files": 71,
+  "protected_evidence_mismatches": [],
+  "regenerated_figure_bytes_match": {
+    "decision_success.png": true,
+    "prediction_and_memory.png": true,
+    "learning_curves.png": true,
+    "task_illustration.png": true,
+    "figure_inputs.json": true
+  },
+  "citation_keys_missing": [],
+  "agentspec_scientific_citation_retained": true,
+  "pdf_text_checks": [
+    {
+      "document": "manuscript_main.pdf",
+      "pages": 7,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    },
+    {
+      "document": "results_figures_decision_success.pdf",
+      "pages": 1,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    },
+    {
+      "document": "results_figures_learning_curves.pdf",
+      "pages": 1,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    },
+    {
+      "document": "results_figures_prediction_and_memory.pdf",
+      "pages": 1,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    },
+    {
+      "document": "review_2026-10-01_figures_decision_success.pdf",
+      "pages": 1,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    },
+    {
+      "document": "review_2026-10-01_figures_learning_curves.pdf",
+      "pages": 1,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    },
+    {
+      "document": "review_2026-10-01_figures_prediction_and_memory.pdf",
+      "pages": 1,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    },
+    {
+      "document": "review_2026-10-01_figures_task_illustration.pdf",
+      "pages": 1,
+      "text_extracted": true,
+      "standalone_presentation_findings": 0,
+      "unresolved_reference_markers": false
+    }
+  ],
+  "passed": true
+}

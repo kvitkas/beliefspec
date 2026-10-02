@@ -1,0 +1,35 @@
+{
+  "output": ".review-runs/cleanup-2026-10-02/figures",
+  "source_rows": 7680,
+  "primary": {
+    "contrast": "predictive_minus_control_observed_equal_delay_weight",
+    "seed_results": [
+      {
+        "training_seed": 11,
+        "control": 1.0,
+        "predictive": 0.5,
+        "difference": -0.5
+      },
+      {
+        "training_seed": 22,
+        "control": 1.0,
+        "predictive": 1.0,
+        "difference": 0.0
+      },
+      {
+        "training_seed": 33,
+        "control": 1.0,
+        "predictive": 1.0,
+        "difference": 0.0
+      }
+    ],
+    "mean_difference": -0.16666666666666666,
+    "seed_sd": 0.2886751345948129,
+    "descriptive_95_t_interval": [
+      -0.8837754549852125,
+      0.5504421216518792
+    ],
+    "training_replications": 3,
+    "warning": "df=2, unstable interval; conditional on fixed evaluation routes/layout; not an episode-binomial CI"
+  }
+}

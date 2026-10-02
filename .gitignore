@@ -12,10 +12,8 @@ vendor/
 *.pem
 *.key
 *.zip
-# Local outreach materials and original logs containing personal machine paths.
-docs/outreach_email.md
-docs/application_procedure.md
-docs/agentspec_smoke.md
+# Local-only documents and logs.
+private/
 artifacts/agentspec/setup.log
 artifacts/agentspec/minigrid_quickstart_unset_keys_status.log
 artifacts/package_manifest.json

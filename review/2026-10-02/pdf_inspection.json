@@ -1,0 +1,13 @@
+{
+  "characters_per_page" : [
+    2696,
+    2734,
+    2936,
+    2525,
+    2647,
+    3651,
+    3264
+  ],
+  "pages" : 7,
+  "renderer" : "macOS PDFKit"
+}

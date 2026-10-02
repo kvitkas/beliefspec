@@ -1,5 +1,10 @@
 # BeliefSpec internal experiment protocol
 
+Publication copy revised 2026-10-02. The scientific protocol below is unchanged;
+non-scientific completion logistics were removed from the final paragraph. The exact
+pre-evaluation document remains identifiable by its original frozen hash and preserved
+Git revision; see [evidence preservation](evidence_preservation.md).
+
 Written 2026-10-01, before main training or held-out evaluation. This is an internal protocol, not an external preregistration. Budget values will be frozen after CPU timing and development-only checks in `configs/frozen.json`.
 
 ## Question and hypotheses
@@ -48,4 +53,9 @@ At final decision compare decoded memory unchanged, replaced by unknown, key/bal
 
 ## Follow-up and stopping rule
 
-Finish a tested, executed pilot and honest report even if negative. Do not alter prediction targets to obtain a win. Any follow-up gets a dated protocol amendment before execution and is labeled exploratory. LLMs, second task families and layout generalization are optional and outside this initial pilot. No paid compute, external publishing, email sending or form submission. Stop when records, code, figures, report/PDF, beginner explanation, outreach drafts and an independent reproduction check are complete, or record a concrete unrecoverable blocker.
+The pilot concludes with saved experimental records, code, figures, a report, and an
+independent reproduction check, regardless of the direction of the result. Prediction
+targets are not changed in response to the main result. Any follow-up requires a dated
+protocol amendment before execution and is labeled exploratory. LLMs, second task
+families, and layout generalization are outside this initial pilot. Execution uses
+local compute. Unresolved execution failures are recorded explicitly.

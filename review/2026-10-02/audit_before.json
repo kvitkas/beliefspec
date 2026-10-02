@@ -1,7 +1,7 @@
 {
-  "stage": "after",
+  "stage": "before",
   "root": ".",
-  "output": "review/2026-10-01/verification/audit_after.json",
+  "output": ".review-runs/cleanup-2026-10-02/audit_before.json",
   "frozen_sha_check_before": {
     "file_count": 50,
     "mismatch_count": 0,
@@ -433,7 +433,7 @@
     "post_clue_target_differences": 0
   },
   "re_inference_audit": {
-    "seconds": 1.4076105409767479,
+    "seconds": 1.0908700419822708,
     "runs": [
       {
         "variant": "control",
@@ -493,35 +493,7 @@
     "mismatch_examples": []
   },
   "representative_reproduction": {
-    "provided": true,
-    "exists": true,
-    "path": "review/2026-10-01/verification/reproduction/verification.json",
-    "data_regeneration": {
-      "train": {
-        "episodes": 1536,
-        "ordered_visible_hashes_match": true
-      },
-      "validation": {
-        "episodes": 384,
-        "ordered_visible_hashes_match": true
-      },
-      "test": {
-        "episodes": 768,
-        "ordered_visible_hashes_match": true
-      }
-    },
-    "runs": [
-      {
-        "seed": 11,
-        "variant": "control",
-        "exact_checkpoint_tensors": true,
-        "max_probability_or_prediction_ce_difference": 0.0,
-        "all_episode_successes_identical": true,
-        "observed_success": 1.0,
-        "never_success": 0.5,
-        "expected_episode_rows_for_run": 768
-      }
-    ]
+    "provided": false
   },
   "frozen_sha_check_after": {
     "file_count": 50,
@@ -550,5 +522,5 @@
   ],
   "passed": true,
   "failures": [],
-  "audit_runtime_seconds": 2.7197283749701455
+  "audit_runtime_seconds": 2.2687950839754194
 }

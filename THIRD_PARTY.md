@@ -1,11 +1,9 @@
 # Attribution, dependencies, and provenance
 
-This package was developed with substantial OpenAI Codex assistance: implementation,
-experiment execution, checking, analysis, and drafting. The user supplied the research
-direction, constraints, and request for the pilot. The records do not establish which
-technical work the user can independently perform. Personal contribution and experience
-must be described by the user, not inferred from this repository. No Q-Lab affiliation,
-endorsement, or supervision is claimed.
+OpenAI Codex provided substantial assistance with implementation, experiment execution,
+checking, analysis, and drafting. The project owner supplied the research direction and
+constraints. Author identity and individual contributions have not yet been finalized;
+the repository does not establish unaided implementation or independent human review.
 
 ## Upstream work
 
@@ -19,9 +17,11 @@ endorsement, or supervision is claimed.
   include multiple component licenses; consult their distribution notices rather than
   assuming a single license covers every bundled component.
 - Tests/lint use pytest and Ruff (MIT). The original report was rendered with ReportLab
-  (BSD-style distribution license). The new manuscript uses
+  (BSD-style distribution license); its superseded rendering helper has been removed.
+  The working paper uses
   [Tectonic](https://tectonic-typesetting.github.io/book/latest/installation/), downloaded
-  separately and not redistributed here. A license inventory is in the review directory.
+  separately and not redistributed here. See the
+  [installed-distribution inventory](review/2026-10-01/dependencies.json).
 - [AgentSpec](https://github.com/chenjix/AgentSpec) was inspected in a separate environment.
   Its source is **not included** and is **not a dependency of the pilot**. The preserved
   offline test log is evidence of a smoke test, not replication of a published result.
@@ -33,7 +33,6 @@ attributions are recorded in `manuscript/references.bib` and the dated source re
 
 ## Distribution status
 
-Public hosting was authorized by the project owner. No project-wide reuse license has
-been selected in this task, and this package is not described as open-source. Third-party
+No project-wide reuse license has been selected. Third-party
 software retains its own licensing terms. A project reuse license can be chosen separately;
 public visibility alone should not be interpreted as an additional license grant.

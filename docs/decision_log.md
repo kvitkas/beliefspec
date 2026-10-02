@@ -1,43 +1,103 @@
 # Decision log
 
-## 2026-10-01 — before implementation and main experiments
+This is the publication-facing decision log. It preserves scientific and
+engineering decisions from the completed pilot. On 2026-10-02, non-scientific
+completion logistics were removed from this copy; the original 2026-10-01 text
+remains recoverable through Git history and the private pre-cleanup archive.
 
-- Empty workspace; create standalone `beliefspec/`. No completed work existed to preserve.
-- Local macOS 15.7.7, arm64, 16 GiB RAM, 8 physical/logical CPU cores. Python 3.14.5 is system default; use existing Python 3.12 in a project environment for compatibility.
-- CPU first, two Torch threads, small categorical encoder and GRU. No paid compute, API calls, large datasets, or LLM evaluation.
-- User's October 1 target is personal, not a lab deadline. Record actual execution dates.
-- Independent work lanes: primary-source verification, time-boxed AgentSpec smoke, and controlled MiniGrid data construction. Main owner integrates and validates.
-- Pilot is supervised memory/decision learning on scripted, clue-independent trajectories, not autonomous navigation or reinforcement learning. AgentSpec inspection does not imply framework integration or paper reproduction.
+## 2026-10-01 - setup and scope
 
-## 2026-10-01 — implementation checks and development, before main runs
+- The workspace did not contain a completed BeliefSpec project, so a standalone
+  `beliefspec/` package was created.
+- Execution was local on macOS 15.7.7, arm64, 16 GiB RAM, 8 CPU cores. Python
+  3.12 was used in a project environment for package compatibility.
+- The initial budget used CPU, two Torch threads, a small categorical encoder,
+  and a GRU. No paid compute, paid APIs, large datasets, or LLM evaluation were
+  used.
+- The pilot was scoped as supervised memory/decision learning on scripted,
+  clue-independent MiniGrid trajectories. It is not autonomous navigation,
+  reinforcement learning, an LLM-agent evaluation, or an AgentSpec reproduction.
 
-- AgentSpec revision `f558379e4ef1b39d39bff46e34cd3923e468c550`: 11 offline tests passed; documented API-backed quickstart failed at missing credentials with provider keys unset. Standalone pilot selected; no integration or published-result reproduction claimed.
-- Fixed a visibility bug before generating experiment data: clue remains visible after the first turn, so masking only frame 0 would leak it. Both clue-visible frames are now masked in the never-observed condition. Delay uses the original clue cell's actual visibility, not generic key/ball detection that could mistake choice objects for clues.
-- Route partitions use one fixed ordering and disjoint offsets, avoiding overlap from independently shuffled split lists. The public seed argument is a compatibility placeholder; actual route RNG is `10000+wait`, environment reset seed 0, crossed object identities. Fixed geometry repeats; no layout generalization is claimed.
-- Train/validation: 1,536/384 episodes, 1,152/288 distinct visible histories, zero cross-split overlap. Never-observed clue twins intentionally duplicate visible histories with opposite hidden answers.
-- Measured clue delays are 17, 29, 53 steps, corresponding to extra waits 8, 20, 44. Structured observed memory solves the task.
-- Tiny-set checks fit three real episodes (key/ball/unknown); this is a debugging gate, not evidence of generalization.
-- Development seed 101, 10 epochs: task-only reached validation readout accuracy 1.0; predictive 0.5442708333. Exact losses/times in `runs/development/*/history.jsonl` and `result.json`. Predictive loss and task optimization can compete; do not assume benefit. No test model outcomes inspected.
-- Freeze main budget at 30 epochs (720 updates per run), seeds 11/22/33, prediction weight 0.1, unchanged architecture/objectives. CPU dev timing supports this laptop budget; no acceleration benchmark needed because CPU is already fast. Both arms retain identical data, shuffle, initialization and checkpoint selection. Do not use the development convergence contrast as a final test finding.
-- Prespecified supporting diagnostic: plot all main validation learning curves and report first epoch reaching 99% validation readout, without selecting new budgets or targets from test data.
+## 2026-10-01 - source and framework checks
 
-## 2026-10-01 — review before held-out model scoring
+- AgentSpec revision `f558379e4ef1b39d39bff46e34cd3923e468c550` was inspected.
+  Eleven offline tests passed. API-backed quickstart commands were blocked by
+  missing provider credentials, so the final pilot remained standalone.
+- Primary sources were verified before citation. The source notes distinguish
+  broad related work from claims supported by this pilot.
 
-- Independent code review found no critical leakage or fairness issue. Fixed explicit freeze/audit/replay guards so Python optimization cannot disable them; expanded freeze hashes to include selection histories, metadata, environment and package records; prevented accidental rerun from writing failures into completed runs; distinguished unavailable unknown readout from unsupported hallucinated readout. These are guard/reporting changes, not model/objective changes.
-- Six main runs completed, all retained. Predictive seed 11 reached only the prior solution on training/validation; checkpoint selection nevertheless follows the prespecified minimum validation task CE rule. This run is an observed optimization failure, not an excluded crash.
+## 2026-10-01 - task construction and development checks
 
-## 2026-10-01 — frozen held-out evaluation and handoff
+- A visibility bug was fixed before final data generation: the clue remains
+  visible after the first turn, so never-observed episodes must mask every frame
+  where the clue cell is visible, not only frame 0.
+- Delay measurement was tied to actual visibility of the original clue cell.
+  This avoids confusing final choice objects with the initial clue.
+- Route partitions use fixed ordering and disjoint offsets. This prevents
+  accidental train/validation/test overlap from independently shuffled split
+  lists. Fixed geometry repeats, so no layout-generalization claim is made.
+- Train/validation contained 1,536/384 episodes and 1,152/288 distinct visible
+  histories, with zero cross-split overlap. Never-observed clue twins
+  intentionally duplicate visible histories with opposite hidden answers.
+- Measured observed-clue delays were 17, 29, and 53 steps, corresponding to
+  extra waits 8, 20, and 44.
+- Tiny-set fitting was used as a debugging gate for key, ball, and unknown
+  labels. It was not treated as evidence of generalization.
+- Development seed 101 showed task-only validation readout accuracy 1.0 after
+  10 epochs and predictive validation readout accuracy 0.5442708333. This
+  warned that the auxiliary objective could compete with the task objective.
+  Test outcomes were not inspected during this development step.
 
-- `artifacts/freeze.json` hashed 50 code/config/data/checkpoint/selection/evidence files before any final learned-model test scoring. No architecture, objective, model selection, evaluation episode set or metric changed after final outcomes were read.
-- All three control seeds scored 100% on observed clues; predictive seeds 11/22/33 scored 50%/100%/100%. The paired mean difference is -16.667 percentage points, descriptive 95% t interval [-88.38,+55.04] points, with only three training replications. Every method scored 50% when the clue was unavailable. No run or episode was excluded.
-- Prediction improved but did not reliably improve decisions. One predictive run has a readout/optimization failure, while the control is at ceiling. This pilot cannot identify a general causal effect of predictive supervision or distinguish all optimization explanations. No follow-up prediction target, loss-weight search, second task, or LLM experiment was executed.
-- Fresh `.venv-repro` from locked dependencies regenerated all three datasets exactly and retrained control seed 11 with identical tensors and all 768 recorded decisions. `runs/reproduction/verification.json` is the evidence.
-- Final record audit: 7,680 scored rows, 10 method/seed groups sharing episodes, 1,920 unavailable hidden-clue swap checks, 768 structured simulator replays, and 30,720 decoded-memory intervention rows. All 50 frozen files still match. Three selected illustrative neural-model traces were additionally replayed to actual terminal simulator rewards; these are illustration/verification, not exploratory aggregate results.
-- Regenerated figures from saved records, rendered a five-page pilot report and one-page summary, and reviewed document claims against data. Added a beginner tutorial with actual state/readout/prediction records, comprehension checklist, unsent 175-word email and manuscript outline. Public preprint not warranted; exploratory outreach is reasonable after the user understands the package and replaces personal placeholders.
-- Rechecked Q-Lab official application instructions. Actual form fields remain behind Google sign-in. No email, form, public repository or preprint was sent/submitted/published/uploaded.
+## 2026-10-01 - frozen main run
 
-### Post-hoc target-dependence diagnostic (specified before this check)
+- The main budget was frozen at 30 epochs, 720 updates per run, seeds 11/22/33,
+  prediction weight 0.1, and unchanged architecture/objectives.
+- Before main scoring, validation learning curves and first epoch reaching 99%
+  readout accuracy were specified as supporting diagnostics, not budget-selection
+  criteria based on test results.
+- Task-only and predictive arms used matched data, shuffling, initialization,
+  optimizer, recurrent capacity, downstream controller, and validation-based
+  checkpoint selection.
+- Independent code review found no critical leakage or fairness issue. Guard
+  changes used explicit errors rather than optimization-removable assertions,
+  expanded freeze coverage to selection histories and execution metadata, and
+  prevented reruns from altering completed runs. These did not change the model
+  objective or evaluation episode set.
+- Six main runs completed and were all retained. Predictive seed 11 reached a
+  prior-like solution on train/validation and was kept under the frozen
+  selection rule; it was not excluded as a crash.
 
-After primary evaluation, compare observed-clue key/ball episode twins with the same route and choice placement. Count whether prediction targets differ after the clue vanishes. This audits the information required by the chosen target and helps interpret a limitation; it is a post-hoc deterministic data-property check, not another trained experiment or a prespecified primary result. No change to models or primary evaluation is permitted.
+## 2026-10-01 - held-out evaluation and audits
 
-Outcome: 192 observed episode pairs; clue-dependent next-view targets only at t=0; zero differences in 6,336 post-clue target comparisons. The target therefore does not require long-delay clue retention in this controlled route. It does not establish the cause of the predictive seed-11 optimization failure. Raw pair records are saved in `results/target_dependence_diagnostic.json`.
+- `artifacts/freeze.json` hashed 50 code/config/data/checkpoint/selection/evidence
+  files before final learned-model test scoring.
+- Final observed-clue success was 1.0/1.0/1.0 for task-only seeds 11/22/33 and
+  0.5/1.0/1.0 for predictive seeds 11/22/33. The paired mean difference was
+  -0.1667 with descriptive 95% t interval [-0.8838, 0.5504].
+- Every method scored 0.5 forced-choice success when the clue was unavailable.
+  No run or episode was excluded.
+- Prediction improved substantially, but decision success did not improve
+  reliably. The control was at ceiling, and the failed predictive seed does not
+  identify a general causal effect.
+- A fresh `.venv-repro` from locked dependencies regenerated all three datasets
+  and retrained control seed 11 with identical tensors and all 768 recorded
+  decisions.
+- Final audits covered 7,680 scored rows, 10 method/seed groups sharing
+  episodes, 1,920 unavailable hidden-clue swap checks, 768 structured simulator
+  replays, and 30,720 decoded-memory intervention rows.
+- Figures were regenerated from saved records. The report and summary were
+  checked against the saved data.
+
+## Post-hoc target-dependence diagnostic
+
+After primary evaluation, a deterministic audit compared observed-clue key/ball
+episode twins with the same route and choice placement. This was a post-hoc
+data-property check, not a new trained experiment or a prespecified primary
+result.
+
+Outcome: 192 observed episode pairs were compared. Clue-dependent next-view
+targets appeared only for input `t=0` predicting observation `t=1`; there were
+zero differences in 6,336 post-clue
+target comparisons. The chosen target therefore did not require long-delay clue
+retention after the clue disappeared. This does not establish the cause of the
+predictive seed-11 optimization failure.

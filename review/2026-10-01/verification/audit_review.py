@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import argparse
 import csv
-import hashlib
+import importlib.util
 import json
 import time
 from collections import Counter, defaultdict
@@ -23,10 +23,6 @@ from beliefspec.dataio import load_dataset, visible_hash
 from beliefspec.experiment import infer, load_model
 from beliefspec.model import MemoryModel, baseline_probabilities, clue_to_choice
 from beliefspec.task import visible_history_hash
-
-
-def sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
 def read_json(path: Path) -> Any:
@@ -51,20 +47,18 @@ def relative_to_root(root: Path, path: Path) -> str:
 
 
 def freeze_check(root: Path) -> dict[str, Any]:
-    freeze = read_json(root / "artifacts/freeze.json")
-    mismatches = []
-    for relative, expected in freeze["files"].items():
-        actual = sha256(root / relative)
-        if actual != expected:
-            mismatches.append({"path": relative, "expected": expected, "actual": actual})
-    return {
-        "file_count": len(freeze["files"]),
-        "mismatch_count": len(mismatches),
-        "mismatches": mismatches,
-        "model_outcomes_on_test_inspected": freeze["model_outcomes_on_test_inspected"],
-        "primary": freeze["primary"],
-        "episodes": freeze["episodes"],
-    }
+    publication_helper = root / "review/2026-10-02/verify_publication.py"
+    if not publication_helper.exists():
+        raise FileNotFoundError(
+            "publication provenance helper is required at review/2026-10-02/verify_publication.py"
+        )
+    spec = importlib.util.spec_from_file_location("verify_publication", publication_helper)
+    module = importlib.util.module_from_spec(spec)
+    assert spec.loader is not None
+    spec.loader.exec_module(module)
+    report = module.verify_publication(root)
+    report["mode"] = "publication_copy"
+    return report
 
 
 def audit_splits(root: Path) -> dict[str, Any]:
@@ -559,7 +553,12 @@ def main() -> None:
         ],
     }
     failures = []
-    if before["mismatch_count"] or report["frozen_sha_check_after"]["mismatch_count"]:
+    if (
+        before["mismatch_count"]
+        or report["frozen_sha_check_after"]["mismatch_count"]
+        or not before["passed"]
+        or not report["frozen_sha_check_after"]["passed"]
+    ):
         failures.append("frozen_sha_mismatch")
     if any(report["split_audit"]["overlap"].values()):
         failures.append("split_visible_hash_overlap")

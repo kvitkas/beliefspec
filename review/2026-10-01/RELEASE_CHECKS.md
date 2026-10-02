@@ -10,7 +10,7 @@ into ignored `.review-runs/clean-checkout`. A new `.venv` was created there; it 
 reuse the installed project or environment from the original working directory.
 Dependencies were installed from the local package cache where available.
 
-Commands below were executed through the workspace's `rtk proxy sh -c` wrapper.
+Commands below show the executable payloads, omitting the shell logging wrapper.
 Paths are relative to the clean checkout; `PROJECT_ROOT` was its actual absolute path.
 
 ```bash
@@ -68,12 +68,10 @@ large redundant page previews stay local.
   raw CSVs exactly. No result value was changed.
 - Checked all 18 local links in the replacement README; none were missing.
 - Staged-file heuristic scan found no credential patterns, personal machine paths,
-  personal email addresses, private application documents, environments, or archives.
+  personal email addresses, environments, or archives.
   This bounded scan is not a guarantee against every possible secret representation.
-- Both the current tree and initial import exclude the private application files.
-  The private-archive script was not used for publication.
 - Follow-up questions were documented only. No new target, loss-weight sweep,
-  information-gathering task, adaptation task, email, form, or arXiv submission was run.
+  information-gathering task, or adaptation task was run.
 
 Minor integration fixes during packaging: corrected a privacy scanner's self-match on
 its regex source; preserved CSV CRLF rather than satisfying a default whitespace rule

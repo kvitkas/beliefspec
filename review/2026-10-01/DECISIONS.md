@@ -1,5 +1,8 @@
 # Public-package review decisions
 
+Publication copy edited 2026-10-02 to retain technical decisions and omit non-scientific
+logistics. The pre-edit version remains in Git history.
+
 Started 2026-10-01, after the original held-out results were already available.
 This is retrospective verification and packaging, not a new preregistration or a
 change to the frozen experiment.
@@ -11,16 +14,11 @@ change to the frozen experiment.
 - No prior Git repository was present. Create a truthful initial import of the public
   subset, followed by commits for actual packaging changes. Do not recreate historical
   commits. The original README remains in the initial commit.
-- GitHub authentication identifies one active account, `kvitkas`. The API confirmed that
-  `kvitkas/beliefspec` was absent before repository creation. Use the account's GitHub
-  noreply commit address rather than publishing its configured personal email.
 - Preserve evidence bytes using `.gitattributes` (`* -text`). Git's initial default
   normalized two CSVs in the initial import; the packaging commit stores their original
   CRLF bytes. No local evidence contents were changed.
-- Exclude private application drafts, environments, caches, the local vendor checkout,
-  redundant preview/archive files, and three original AgentSpec files with personal
-  absolute paths. They remain intact locally. Include a public smoke-test summary instead.
-  Do not use the original private-archive script as a public export tool.
+- Environments, caches, the local vendor checkout, previews and machine-specific logs
+  were not tracked. A portable AgentSpec smoke-test summary records its limited outcome.
 - Run tests with their working directory under the new review directory: the original
   tiny-fit test writes a diagnostic relative to CWD. Use a new reproduction destination.
 - Compile actual LaTeX using project-local Tectonic 0.17.0, obtained from the official
