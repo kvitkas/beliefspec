@@ -1,0 +1,27 @@
+{
+  "data_regeneration": {
+    "train": {
+      "episodes": 1536,
+      "ordered_visible_hashes_match": true
+    },
+    "validation": {
+      "episodes": 384,
+      "ordered_visible_hashes_match": true
+    },
+    "test": {
+      "episodes": 768,
+      "ordered_visible_hashes_match": true
+    }
+  },
+  "runs": [
+    {
+      "seed": 11,
+      "variant": "control",
+      "exact_checkpoint_tensors": true,
+      "max_probability_or_prediction_ce_difference": 0.0,
+      "all_episode_successes_identical": true,
+      "observed_success": 1.0,
+      "never_success": 0.5
+    }
+  ]
+}
